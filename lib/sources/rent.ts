@@ -1,8 +1,8 @@
 import { areaForPoint, AREAS } from "../areas";
 import type { AreaConfig } from "../areas";
-import { hasSufficientDescriptionOrAmenities, passesQuality, qualityScore } from "../quality";
+import { hasSufficientDescriptionOrAmenities, passesNonDescriptionQuality, passesQuality, qualityScore } from "../quality";
 import type { AreaDropReasons, AreaFetchStatus, AreaPathStatus, FloorPlan, Listing } from "../types";
-import type { ListingSourceAdapter, SourceResult } from "./interface";
+import type { ListingSourceAdapter, SourceFetchContext, SourceResult } from "./interface";
 
 const HOST = "https://www.rent.com";
 const USER_AGENT =
@@ -48,11 +48,17 @@ const wait = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
 const retryDelays = [5000, 15000, 30000];
 const maxRunMs = 240_000;
 const maxRequestMs = 20_000;
+const status202CooldownMs = 45_000;
 
 type RequestState = {
   deadline: number;
   nextRequestAt: number;
   retries: number;
+  searchRequests: number;
+  detailRequests: number;
+  descriptionCacheHits: number;
+  status202Pauses: number;
+  pausedFor202: boolean;
   blockedError?: string;
 };
 
@@ -74,7 +80,7 @@ async function waitBeforeRetry(state: RequestState, attempt: number, error: Erro
   await wait(backoff);
 }
 
-async function getText(url: string, state: RequestState): Promise<string> {
+async function getText(url: string, state: RequestState, kind: "search" | "detail"): Promise<string> {
   if (state.blockedError) throw new Error(`Rent.com requests paused after repeated source failures: ${state.blockedError}`);
   let lastError = new Error(`Rent.com request failed for ${url}`);
   for (let attempt = 0; attempt <= retryDelays.length; attempt += 1) {
@@ -89,6 +95,8 @@ async function getText(url: string, state: RequestState): Promise<string> {
 
     let response: Response;
     try {
+      if (kind === "search") state.searchRequests += 1;
+      else state.detailRequests += 1;
       response = await fetch(url, {
         headers: { "user-agent": USER_AGENT, accept: "text/html,application/xhtml+xml" },
         signal: AbortSignal.timeout(Math.min(maxRequestMs, remaining)),
@@ -121,6 +129,19 @@ async function getText(url: string, state: RequestState): Promise<string> {
         await waitBeforeRetry(state, attempt, lastError);
         continue;
       }
+    }
+
+    if (response.status === 202) {
+      lastError = new Error(`Rent.com returned 202 for ${url}`);
+      state.nextRequestAt = Date.now() + spacingDelay();
+      const cooldown = status202CooldownMs + Math.random() * 2000;
+      if (state.pausedFor202 || Date.now() + cooldown + 1000 >= state.deadline) throw lastError;
+      state.pausedFor202 = true;
+      state.status202Pauses += 1;
+      state.retries += 1;
+      await wait(cooldown);
+      attempt -= 1;
+      continue;
     }
 
     lastError = new Error(`Rent.com returned ${response.status} for ${url}`);
@@ -211,7 +232,7 @@ function mergeRawListing(target: RentListing, incoming: RentListing): void {
 
 async function getDescription(pathname: string, state: RequestState): Promise<string> {
   try {
-    const html = await getText(`${HOST}${pathname}`, state);
+    const html = await getText(`${HOST}${pathname}`, state, "detail");
     const candidates = [
       /"description"\s*:\s*"((?:\\.|[^"\\])*)"/g,
       /"propertyDescription"\s*:\s*"((?:\\.|[^"\\])*)"/g,
@@ -365,25 +386,31 @@ async function fetchArea(
     let pathListings = 0;
     let errorMessage: string | undefined;
     try {
-      const first = parsePage(await getText(`${HOST}${path}`, state));
+      const first = parsePage(await getText(`${HOST}${path}`, state, "search"));
       pages += 1;
       pathListings += first.listings.length;
       for (const listing of first.listings) {
         if (addUniqueRaw(uniqueListings, listing)) merges += 1;
       }
 
-      const totalPages = Math.min(Math.ceil(first.total / Math.max(first.listings.length, 1)), 8);
+      const totalPages = first.listings.length
+        ? Math.ceil(first.total / first.listings.length)
+        : 1;
+      const pageLimit = area.id === "little-italy" ? totalPages : Math.min(totalPages, 3);
       for (let page = 2; page <= totalPages; page += 1) {
+        if (page > pageLimit) break;
+        if (area.id !== "little-italy" && !first.listings.some((listing) => isInsideArea(listing, area))) break;
         if (Date.now() >= state.deadline) throw new Error("Run time budget exhausted during pagination");
         const url = new URL(`${HOST}${path}`);
         url.searchParams.set("page", String(page));
-        const next = parsePage(await getText(url.toString(), state));
+        const next = parsePage(await getText(url.toString(), state, "search"));
         pages += 1;
         pathListings += next.listings.length;
         for (const listing of next.listings) {
           if (addUniqueRaw(uniqueListings, listing)) merges += 1;
         }
         if (!next.listings.length) break;
+        if (area.id !== "little-italy" && !next.listings.some((listing) => isInsideArea(listing, area))) break;
       }
     } catch (error) {
       errorMessage = error instanceof Error ? error.message : String(error);
@@ -419,7 +446,7 @@ async function fetchArea(
 export class RentComAdapter implements ListingSourceAdapter {
   readonly name = "Rent.com";
 
-  async fetchListings(): Promise<SourceResult> {
+  async fetchListings(context?: SourceFetchContext): Promise<SourceResult> {
     const found: RentListing[] = [];
     let pages = 0;
     let merges = 0;
@@ -427,6 +454,11 @@ export class RentComAdapter implements ListingSourceAdapter {
       deadline: Date.now() + maxRunMs,
       nextRequestAt: 0,
       retries: 0,
+      searchRequests: 0,
+      detailRequests: 0,
+      descriptionCacheHits: 0,
+      status202Pauses: 0,
+      pausedFor202: false,
     };
     const areaResults: Record<string, { listings: RentListing[]; status: AreaFetchStatus }> = {};
 
@@ -457,18 +489,32 @@ export class RentComAdapter implements ListingSourceAdapter {
       }
     }
 
-    const candidates = [...converted.values()];
+    const candidates = [...converted.values()].sort((a, b) => {
+      const areaPriority = (areaId: string) => AREAS.find((area) => area.id === areaId)?.priority ?? Number.MAX_SAFE_INTEGER;
+      return areaPriority(a.areaId) - areaPriority(b.areaId);
+    });
+    const descriptionCache = context?.descriptionCache || new Map<string, string>();
     for (const listing of candidates) {
-      if (state.blockedError) break;
+      const cachedDescription = descriptionCache.get(listing.id);
+      if (cachedDescription?.trim()) {
+        listing.description = cachedDescription;
+        state.descriptionCacheHits += 1;
+      }
+    }
+
+    for (const listing of candidates) {
       if (
+        !listing.description.trim() &&
+        !state.blockedError &&
+        passesNonDescriptionQuality(listing) &&
+        !passesQuality(listing) &&
         listing.sources[0]?.url &&
         new URL(listing.sources[0].url).pathname !== "/" &&
-        listing.photos.length >= 6 &&
-        listing.minPrice <= 3500
+        state.deadline - Date.now() >= 5000
       ) {
-        if (state.deadline - Date.now() < 5000) break;
         const retriesBefore = state.retries;
         listing.description = await getDescription(new URL(listing.sources[0].url).pathname, state);
+        if (listing.description.trim()) descriptionCache.set(listing.id, listing.description);
         const areaStatusForListing = areaResults[listing.areaId]?.status;
         if (areaStatusForListing) areaStatusForListing.retries += state.retries - retriesBefore;
       }
@@ -517,6 +563,19 @@ export class RentComAdapter implements ListingSourceAdapter {
       };
     }
 
-    return { source: this.name, listings: candidates, pages, merges, areaStatus };
+    return {
+      source: this.name,
+      listings: candidates,
+      pages,
+      merges,
+      areaStatus,
+      requestCounts: {
+        search: state.searchRequests,
+        detail: state.detailRequests,
+        descriptionCacheHits: state.descriptionCacheHits,
+        retries: state.retries,
+        status202Pauses: state.status202Pauses,
+      },
+    };
   }
 }

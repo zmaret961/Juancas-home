@@ -39,6 +39,13 @@ export async function ensureTables(): Promise<void> {
       )
     `;
     await db`
+      CREATE TABLE IF NOT EXISTS listing_descriptions (
+        listing_id TEXT PRIMARY KEY,
+        description TEXT NOT NULL,
+        updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
+      )
+    `;
+    await db`
       CREATE TABLE IF NOT EXISTS runs (
         id BIGSERIAL PRIMARY KEY,
         run_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
@@ -55,6 +62,32 @@ export async function getActiveListings(): Promise<Listing[]> {
   await ensureTables();
   const rows = await sql()<{ data: Listing }[]>`SELECT data FROM listings WHERE active = TRUE`;
   return rows.map((row) => row.data);
+}
+
+export async function getDescriptionCache(): Promise<Record<string, string>> {
+  await ensureTables();
+  const rows = await sql()<{ listing_id: string; description: string }[]>`
+    SELECT listing_id, description FROM listing_descriptions
+  `;
+  return Object.fromEntries(rows.map((row) => [row.listing_id, row.description]));
+}
+
+export async function saveDescriptionCache(descriptions: Record<string, string>): Promise<void> {
+  await ensureTables();
+  const entries = Object.entries(descriptions).filter(([, description]) => Boolean(description.trim()));
+  if (!entries.length) return;
+  const db = sql();
+  await db.begin(async (transaction) => {
+    for (const [listingId, description] of entries) {
+      await transaction`
+        INSERT INTO listing_descriptions (listing_id, description)
+        VALUES (${listingId}, ${description})
+        ON CONFLICT (listing_id) DO UPDATE SET
+          description = EXCLUDED.description,
+          updated_at = NOW()
+      `;
+    }
+  });
 }
 
 export async function getFavoriteSnapshots(): Promise<Listing[]> {
