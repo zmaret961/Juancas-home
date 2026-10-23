@@ -1,4 +1,8 @@
-import type { AreaFetchStatus, Listing } from "../types";
+import type { AreaFetchStatus, Listing, SourceRequestCounts } from "../types";
+
+export type SourceFetchContext = {
+  descriptionCache: Map<string, string>;
+};
 
 export type SourceResult = {
   source: string;
@@ -6,9 +10,10 @@ export type SourceResult = {
   pages: number;
   merges?: number;
   areaStatus?: Record<string, AreaFetchStatus>;
+  requestCounts?: SourceRequestCounts;
 };
 
 export interface ListingSourceAdapter {
   readonly name: string;
-  fetchListings(): Promise<SourceResult>;
+  fetchListings(context?: SourceFetchContext): Promise<SourceResult>;
 }

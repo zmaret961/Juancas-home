@@ -71,6 +71,14 @@ export type AreaFetchStatus = {
   dropReasons: AreaDropReasons;
 };
 
+export type SourceRequestCounts = {
+  search: number;
+  detail: number;
+  descriptionCacheHits: number;
+  retries: number;
+  status202Pauses: number;
+};
+
 export type AreaRunSummary = AreaFetchStatus & {
   beforeQuality: number;
   afterQuality: number;
@@ -83,4 +91,5 @@ export type RunSummary = {
   qualityCounts: { before: number; after: number };
   dedupeMerges: number;
   errors: string[];
+  requestCounts?: Record<string, SourceRequestCounts>;
 };

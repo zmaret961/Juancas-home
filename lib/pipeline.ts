@@ -1,6 +1,7 @@
 import { AREAS } from "./areas";
 import { dedupeListings } from "./dedupe";
-import { hasDatabase, getActiveListings, persistRefresh } from "./db";
+import { hasDatabase, getActiveListings, getDescriptionCache, persistRefresh, saveDescriptionCache } from "./db";
+import { readDescriptionCache, writeDescriptionCache } from "./descriptions";
 import { passesQuality, qualityScore } from "./quality";
 import { readSnapshot } from "./snapshot";
 import type { ListingSourceAdapter } from "./sources/interface";
@@ -25,15 +26,32 @@ export async function refreshListings(adapters: ListingSourceAdapter[] = sourceA
     previous = (await readSnapshot()).listings;
   }
 
+  const descriptionCache = new Map<string, string>();
+  try {
+    const persistedDescriptions = hasDatabase ? await getDescriptionCache() : await readDescriptionCache();
+    for (const [id, description] of Object.entries(persistedDescriptions)) {
+      if (description.trim()) descriptionCache.set(id, description);
+    }
+  } catch (error) {
+    errors.push(`Description cache read failed: ${error instanceof Error ? error.message : String(error)}`);
+  }
+  for (const listing of previous) {
+    if (listing.description.trim() && !descriptionCache.has(listing.id)) {
+      descriptionCache.set(listing.id, listing.description);
+    }
+  }
+
   const sourceCounts: Record<string, number> = {};
   const sourceAreaStatus: Record<string, AreaFetchStatus> = {};
+  const requestCounts: NonNullable<RunSummary["requestCounts"]> = {};
   const collected: Listing[] = [];
   let sourceMerges = 0;
   for (const adapter of adapters) {
     try {
-      const result = await adapter.fetchListings();
+      const result = await adapter.fetchListings({ descriptionCache });
       sourceCounts[result.source] = result.listings.length;
       Object.assign(sourceAreaStatus, result.areaStatus || {});
+      if (result.requestCounts) requestCounts[result.source] = result.requestCounts;
       sourceMerges += result.merges || 0;
       collected.push(...result.listings);
     } catch (error) {
@@ -59,6 +77,16 @@ export async function refreshListings(adapters: ListingSourceAdapter[] = sourceA
       }
       console.error(`[refresh] ${adapter.name} failed; preserving the previous snapshot: ${message}`);
     }
+  }
+
+  const cachedDescriptions = Object.fromEntries(
+    [...descriptionCache.entries()].filter(([, description]) => Boolean(description.trim())),
+  );
+  try {
+    if (hasDatabase) await saveDescriptionCache(cachedDescriptions);
+    else await writeDescriptionCache(cachedDescriptions);
+  } catch (error) {
+    errors.push(`Description cache write failed: ${error instanceof Error ? error.message : String(error)}`);
   }
 
   const emptyDropReasons: AreaDropReasons = {
@@ -96,6 +124,7 @@ export async function refreshListings(adapters: ListingSourceAdapter[] = sourceA
       qualityCounts: { before: 0, after: previous.length },
       dedupeMerges: 0,
       errors: errors.length ? errors : ["No listings returned; preserved previous snapshot"],
+      requestCounts,
     };
     if (hasDatabase && previous.length > 0) await persistRefresh(previous, summary);
     return { listings: previous, summary };
@@ -137,6 +166,7 @@ export async function refreshListings(adapters: ListingSourceAdapter[] = sourceA
     qualityCounts: { before: collected.length, after: outputListings.length },
     dedupeMerges: sourceMerges + deduped.merges,
     errors,
+    requestCounts,
   };
   if (hasDatabase) {
     await persistRefresh(outputListings, summary);
