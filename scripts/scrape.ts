@@ -8,6 +8,10 @@ async function main() {
     console.log(JSON.stringify({ ...summary, savedTo: "database", listings: listings.length }, null, 2));
     return;
   }
+  if (summary.errors.length > 0) {
+    console.log(JSON.stringify({ ...summary, savedTo: "preserved existing snapshot", listings: listings.length }, null, 2));
+    return;
+  }
   const directory = path.join(process.cwd(), "data");
   await mkdir(directory, { recursive: true });
   await writeFile(path.join(directory, "listings.json"), `${JSON.stringify({ updatedAt: summary.runAt, listings, run: summary }, null, 2)}\n`);

@@ -45,10 +45,41 @@ export type Listing = {
   isNew: boolean;
 };
 
+export type AreaDropReasons = {
+  outsideCoastalBox: number;
+  overBudget: number;
+  wrongType: number;
+  fewerThanSixPhotos: number;
+  missingDescription: number;
+  belowScore: number;
+};
+
+export type AreaPathStatus = {
+  path: string;
+  status: "ok" | "partial" | "failed" | "skipped";
+  pages: number;
+  listings: number;
+  error?: string;
+};
+
+export type AreaFetchStatus = {
+  status: "ok" | "partial" | "failed" | "timed-out" | "unreported";
+  rawCount: number;
+  pages: number;
+  retries: number;
+  paths: AreaPathStatus[];
+  dropReasons: AreaDropReasons;
+};
+
+export type AreaRunSummary = AreaFetchStatus & {
+  beforeQuality: number;
+  afterQuality: number;
+};
+
 export type RunSummary = {
   runAt: string;
   sourceCounts: Record<string, number>;
-  areaCounts: Record<string, { beforeQuality: number; afterQuality: number }>;
+  areaCounts: Record<string, AreaRunSummary>;
   qualityCounts: { before: number; after: number };
   dedupeMerges: number;
   errors: string[];

@@ -2,17 +2,20 @@ import type { Listing } from "./types";
 
 const FEATURE_WORDS = ["laundry", "washer", "dryer", "parking", "air conditioning", "a/c", "balcony", "patio"];
 
+export function hasSufficientDescriptionOrAmenities(listing: Listing): boolean {
+  const description = listing.description.trim();
+  return description.length >= 150 || (!description && listing.amenities.length >= 6);
+}
+
 export function qualityScore(listing: Listing): number {
   const photos = listing.photos.length;
   const richAmenities = listing.amenities.length;
-  const description = listing.description.trim();
-  const hasRichListingDetails = description.length >= 150 || (!description && richAmenities >= 6);
   if (
     photos < 6 ||
     listing.minPrice <= 0 ||
     !Number.isFinite(listing.bedsMin) ||
     !Number.isFinite(listing.bathsMin) ||
-    !hasRichListingDetails
+    !hasSufficientDescriptionOrAmenities(listing)
   ) return 0;
 
   let score = 1;

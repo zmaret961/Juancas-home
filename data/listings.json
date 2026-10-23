@@ -1,309 +1,6 @@
 {
-  "updatedAt": "2026-10-23T21:44:16.974Z",
+  "updatedAt": "2026-10-23T22:02:43.896Z",
   "listings": [
-    {
-      "id": "rent-lc5902720",
-      "name": "The Continental",
-      "areaId": "little-italy",
-      "areaName": "Little Italy",
-      "address": "320 W Cedar St",
-      "city": "San Diego",
-      "zip": "92101",
-      "lat": 32.722164,
-      "lng": -117.16591,
-      "photos": [
-        "https://i.rent.com/t_3x2_fixed_webp_lg/90c9e5a9f09253e752b03d5dcaee7bd7",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/d48a7fd47067f8167ababfbfa94c1f5c",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/ac048ca45248661da9f687509eac9f0f",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/9bfe33f7b1bac7543a36e899e655fce6",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/9b0b5a835e95ce41a30a5e14f1ac28c5",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/5651db61b328b3d415c8bda11376ab76",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/1dbca30236ab85d80e693925531e525a",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/67de6d9e23ad6b79a48f3dadff587ee9",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/e681d870d76da8bd9fa943f0eec55654",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/b9fec822df2ade6f0e5b210c11a77258",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/99d22eb426970ed33a28f626cd3cf9b9",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/b156d83d09b24f645a9d63c71e5aa83d",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/ee6e5484720cab5f4ac2f7cd7a8b055a",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/da7fd1472515ed3bf9eb836d3a97e704",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/6fb233616828a22d9c535fbe95f507ff",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/1943ea8e8b43404fb03b338801e2c2e5",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/c1138146e07da1c9f20936549c09cb7f",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/28d959a70499e0412d996ef48359e5d4",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/376c8ea58b9e6ee8fe5eb85e342808a0",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/139d7c7c97f5ad7857762ea9e5f03b8a",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/b80353c8c6f8ae60977eca8977bf006d",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/a75c64b874790d6a36c9808bea4ff1a5",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/ec57a7491a66cfd0645e9d5473a1140c",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/92fe96bc1333c22d2020b1037431a99c",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/ec357405d6305c15b323591a3796fd58",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/96bb54cb73612643c9cf0ca5a8cc6485",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/2792249895410860ac481d8e03ebf3e7",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/dc11349d2b88e34f01ffb48fae8bb6c7",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/8e33151741e6b568773db496e89a06bd",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/6114a3927ae2b8c3d7de4134bac27f7d",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/4e0a060978d36b6f157b6daed3625557",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/d339eb44e183c28857402fb5c0d4894e",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/31fbfadfa137bdd3e664ea50629b47c3",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/2d3026a713a3004c8691cc22c6a57992",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/fe529679639280c263cb808574239db6",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/fa9afd780fd6d5bcc9623efcd62e47f1",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/fac6bd9bf654ce8b1137e01e0aa69167"
-      ],
-      "floorPlans": [
-        {
-          "beds": 0,
-          "baths": 1,
-          "minPrice": 2100,
-          "maxPrice": 2100,
-          "minSqft": 430,
-          "maxSqft": 430
-        }
-      ],
-      "minPrice": 2100,
-      "maxPrice": 2100,
-      "bedsMin": 0,
-      "bedsMax": 0,
-      "bathsMin": 1,
-      "bathsMax": 1,
-      "sqftMin": 430,
-      "sqftMax": 430,
-      "amenities": [
-        "Pet Friendly",
-        "Air Conditioning",
-        "Balcony",
-        "Controlled Access",
-        "Elevator"
-      ],
-      "description": "The Continental offers a combination of comfort and quality. The 320 W Cedar St. location in the Little Italy neighborhood of San Diego is convenient to everything. The professional leasing staff is ready to help you find the best floor plan for your lifestyle. It's time to find your new home. Contact or stop by The Continental to discuss your new apartment.",
-      "sources": [
-        {
-          "name": "Rent.com",
-          "feed": "ZILLOW",
-          "url": "https://www.rent.com/apartment/the-continental-san-diego-ca-lc5902720"
-        }
-      ],
-      "verified": true,
-      "priceDrop": true,
-      "propertyType": "APARTMENTS",
-      "qualityScore": 12,
-      "firstSeen": "2026-10-23T21:44:16.974Z",
-      "lastSeen": "2026-10-23T21:44:16.974Z",
-      "isNew": true
-    },
-    {
-      "id": "rent-lc5911260",
-      "name": "Il Palazzo Apartments",
-      "areaId": "little-italy",
-      "areaName": "Little Italy",
-      "address": "2040 Columbia St",
-      "city": "San Diego",
-      "zip": "92101",
-      "lat": 32.725817,
-      "lng": -117.16841,
-      "photos": [
-        "https://i.rent.com/t_3x2_fixed_webp_lg/42130cf6f6ce5d06b225c3f71c8f5103",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/9c233b50ccda6d65b7ef401b768634d4",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/424ca4289c1259ec925f818796eb486d",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/96173e7d00817e96776de8ac2295e6ac",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/5c38b0806c1e123ee9e091179c2df3cc",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/acc5a83b71c42e7a5cb91d88c5c7ab84",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/c274be47a8c54db62013aa21dc718f88",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/469bee10466cd616d1eaa3629cb45b19",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/ab6b145bbe5e9eec490e9803c7ee40bd",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/a9f0ad59c95229528ca6deadf73b9c98",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/a996f6d99016d5b826e2ee0a2385c5c2",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/e0c51b1530b3b1685cae6b5c7f5ee04f",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/2ac1dc6090048b23b6aae34ebb6dbcd5",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/092ee077fd4b71d65afe1d8611fe56c9",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/b51f3e2774cfa45277535af8289d1090",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/748151c565c994b59d6496961d709215",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/bc56cba7905b29168c84770390b338e7",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/f6229d7b11a9b88ed2e5e9ec758cfb2a",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/d4cca5a29007c6605905a84abab108bd",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/1a32e2b56d15dd2f8a1b6fbdc1e122c0",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/4e835df9e89560615ea4f22d8308eb19",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/0fbc7de94d703b7d2eec449c8cc18600",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/0f141de976fcbd5e7d84c7b27ca9da86",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/b576e700541326033a9ae14df90676f7",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/13c40a4c1caa97c635ada9e7f903871d"
-      ],
-      "floorPlans": [
-        {
-          "beds": 1,
-          "baths": 1,
-          "minPrice": 2782,
-          "maxPrice": 2782,
-          "minSqft": 533,
-          "maxSqft": 533
-        },
-        {
-          "beds": 2,
-          "baths": 2,
-          "minPrice": 2721,
-          "maxPrice": 3081,
-          "minSqft": 782,
-          "maxSqft": 782
-        },
-        {
-          "beds": 2,
-          "baths": 1,
-          "minPrice": 2721,
-          "maxPrice": 2721,
-          "minSqft": 670,
-          "maxSqft": 670
-        },
-        {
-          "beds": 2,
-          "baths": 2,
-          "minPrice": 2936,
-          "maxPrice": 2936,
-          "minSqft": 887,
-          "maxSqft": 887
-        }
-      ],
-      "minPrice": 2721,
-      "maxPrice": 3081,
-      "bedsMin": 1,
-      "bedsMax": 2,
-      "bathsMin": 1,
-      "bathsMax": 2,
-      "sqftMin": 533,
-      "sqftMax": 887,
-      "amenities": [
-        "Pet Friendly",
-        "Patio",
-        "Dishwasher",
-        "Fitness Center"
-      ],
-      "description": "Welcome to iL Palazzo, a boutique community at the heart of where you want to be. Explore the acclaimed food and beverage scene offered by Little Italy, shop at the weekly farmer's market, or stroll along the San Diego waterfront. Easy access to Trolley Green Line and Blue Line, I-5, and CA 163 connects you with the rest of San Diego.Fairfield Property Management Inc. CA DRE #01889456",
-      "sources": [
-        {
-          "name": "Rent.com",
-          "feed": "ZILLOW",
-          "url": "https://www.rent.com/apartment/il-palazzo-apartments-san-diego-ca-lc5911260"
-        }
-      ],
-      "verified": true,
-      "priceDrop": true,
-      "propertyType": "APARTMENTS",
-      "qualityScore": 12,
-      "firstSeen": "2026-10-23T21:44:16.974Z",
-      "lastSeen": "2026-10-23T21:44:16.974Z",
-      "isNew": true
-    },
-    {
-      "id": "rent-lc5920170",
-      "name": "Current",
-      "areaId": "little-italy",
-      "areaName": "Little Italy",
-      "address": "1551 Union St",
-      "city": "San Diego",
-      "zip": "92101",
-      "lat": 32.721583,
-      "lng": -117.16523,
-      "photos": [
-        "https://i.rent.com/t_3x2_fixed_webp_lg/32dbc54b142e7b01937be28c3548e144",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/2937de9e844498ef18460d816bfdc867",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/df9d87b30acedb37c9a57fd857605d1a",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/3ebd86f2c38f098df18bde60f7af98fa",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/b39577152e7e0c85f586d740be77dd2c",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/5fb841ef27c5dcb016d8fe73f571934d",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/2f9d0571cc6f3a24ede808d901872a42",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/e161f3cd382c3ebef83129702fdd21b5",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/5e96ecb29f84a6b833b813e7d4f3d946",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/2434fb967f6e2adc3eec95300a961050",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/8d9abf39302b6635d0ccf92030b112f5",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/9bbd1eaae287c81bf54fa7ba9d7b77f1",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/7a37bde66d9ae1a5369c65b3fa3691c5",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/671f0b99258ef825030c97958ec674f2",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/0cea2c13d9844b2141622fc95ae2587a",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/8ff4937f6c3cd1c48a8206f2dff8b971",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/81168ecba10cebe63566f9efa113e527",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/50ace05f96262949e4fb51fb5a689e8d",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/b373caa04764475e0e7621b81d71cb46",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/8faa964190e77c5b20009e44ff806c1d",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/0c9e545a4516a423995cdf052cd8fee2",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/5f2c0a748efdf94761499351e5cbad6b",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/0e15abc42241490e123a2930fe42217d",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/58ddff3deee3a7dda147d530f9878c2a",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/d78ee1ac7d9657f44a55c3335b961596",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/0cecaf9d5b3dc19ded22c3b3b0d46b12",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/6331dae21ed40f480ec8eb67cdc45cb2",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/0609871bdc6426c6078c5ad3b367c8ed",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/3f3eac5898b47a1c3e7680533a76c477",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/d9cfdf28374229ffb0f832276fcd28d1",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/9493e3532b4fcc889157db33eab47b53",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/accc4fc9b6a580f7550a96c8b4f76336",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/edee8ce57c08385fe44d8cbcb5197c12",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/aef4a0be1755b042db1fc360e4d05dbd",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/1e5c206ce085ba00a376ac7ed8bf3871",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/c03df2fdc15cfcb567d7a4db71a83ace"
-      ],
-      "floorPlans": [
-        {
-          "beds": 0,
-          "baths": 1,
-          "minPrice": 2716,
-          "maxPrice": 2716,
-          "minSqft": 460,
-          "maxSqft": 460
-        },
-        {
-          "beds": 1,
-          "baths": 1,
-          "minPrice": 3058,
-          "maxPrice": 3058,
-          "minSqft": 720,
-          "maxSqft": 720
-        },
-        {
-          "beds": 1,
-          "baths": 1,
-          "minPrice": 3095,
-          "maxPrice": 3095,
-          "minSqft": 720,
-          "maxSqft": 720
-        },
-        {
-          "beds": 1,
-          "baths": 1,
-          "minPrice": 2866,
-          "maxPrice": 3048,
-          "minSqft": 862,
-          "maxSqft": 862
-        }
-      ],
-      "minPrice": 2716,
-      "maxPrice": 3095,
-      "bedsMin": 0,
-      "bedsMax": 1,
-      "bathsMin": 1,
-      "bathsMax": 1,
-      "sqftMin": 460,
-      "sqftMax": 862,
-      "amenities": [
-        "Pet Friendly",
-        "Air Conditioning",
-        "Dishwasher",
-        "Fitness Center"
-      ],
-      "description": "Welcome to Current, Bay Views Included. Embark on a journey of refined residential rental living at Current, where luxury meets sophistication in the heart of San Diego's most coveted neighborhood, Little Italy, known for its vibrant atmosphere, unique blend of cultural richness, culinary delights, and a strong sense of community. Each apartment & townhome residence provides the perfect retreat from the hustle and bustle of city life, ensuring you enjoy the ultimate living experience and designed with high-end finishes, spacious layouts, and abundant natural light, creating a sanctuary of comfort and style seamlessly blending modern elegance with innovative smart technology features.Professionally managed by RPM Living CA, Inc. CA DRE #02238929Broker License No. 01913664 ! Broker: Thomas Leonard Bisanz",
-      "sources": [
-        {
-          "name": "Rent.com",
-          "feed": "ZILLOW",
-          "url": "https://www.rent.com/apartment/current-san-diego-ca-lc5920170"
-        }
-      ],
-      "verified": true,
-      "priceDrop": true,
-      "propertyType": "APARTMENTS",
-      "qualityScore": 12,
-      "firstSeen": "2026-10-23T21:44:16.974Z",
-      "lastSeen": "2026-10-23T21:44:16.974Z",
-      "isNew": true
-    },
     {
       "id": "rent-lc5913366",
       "name": "Vici",
@@ -315,7 +12,7 @@
       "lat": 32.723135,
       "lng": -117.16788,
       "photos": [
-        "https://i.rent.com/t_3x2_fixed_webp_lg/092a8d7fbfbc657199ec0f7a4b8881d3",
+        "https://i.rent.com/t_3x2_fixed_webp_lg/1345da402b7ef396774b8e942cc6f5d9",
         "https://i.rent.com/t_3x2_fixed_webp_lg/23c759f1e83971db350a3208c878b4eb",
         "https://i.rent.com/t_3x2_fixed_webp_lg/fcc453a0771bc4b95816d4c2e1cfa5ec",
         "https://i.rent.com/t_3x2_fixed_webp_lg/81283b1307f804836a12afb21e9b80ac",
@@ -335,6 +32,7 @@
         "https://i.rent.com/t_3x2_fixed_webp_lg/3ed67754b4add23318fed391ec1ef561",
         "https://i.rent.com/t_3x2_fixed_webp_lg/7ff9e0a6fa37a56c65e3de2d0795b1e1",
         "https://i.rent.com/t_3x2_fixed_webp_lg/dfc2a7306f953929a1fd60d16bf6081f",
+        "https://i.rent.com/t_3x2_fixed_webp_lg/092a8d7fbfbc657199ec0f7a4b8881d3",
         "https://i.rent.com/t_3x2_fixed_webp_lg/8f763c912402a7cc0d2a1b8ab8a8c51a",
         "https://i.rent.com/t_3x2_fixed_webp_lg/51576acd565896df01d17c319bee8a04",
         "https://i.rent.com/t_3x2_fixed_webp_lg/8d28b1955df2b597a70dba012fa9e156",
@@ -358,7 +56,6 @@
         "https://i.rent.com/t_3x2_fixed_webp_lg/dfbe58b23ab43c2ff0790963979d2752",
         "https://i.rent.com/t_3x2_fixed_webp_lg/37ec68ba423a2ac97383382c8b61847b",
         "https://i.rent.com/t_3x2_fixed_webp_lg/a296a4bba77d6746780c2066b8ebb7f3",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/1345da402b7ef396774b8e942cc6f5d9",
         "https://i.rent.com/t_3x2_fixed_webp_lg/92a2ef137c4b9d436a18ec75066a6de9",
         "https://i.rent.com/t_3x2_fixed_webp_lg/0a003e86652eab94d0079ad5bf5be1b7",
         "https://i.rent.com/t_3x2_fixed_webp_lg/c5081e5498f3a648b07c0fd4ff068310",
@@ -428,7 +125,7 @@
         "Elevator",
         "Balcony, Patio, Deck"
       ],
-      "description": "Vici Luxury Rentals Little Italy, San Diego Experience boutique luxury at Vici Apartments, where modern elegance meets effortless living in the heart of Little Italy, San Diego. Our designer homes feature Bosch appliances, quartz countertops, and private balconies overlooking the city. Relax in the rooftop jacuzzi, enjoy sunset views by the firepits, or host friends in the gourmet outdoor kitchen. With concierge services, a pet spa, yoga deck, and resident events, Vici redefines downtown San Diego living. Steps from cafes, markets, and the bay, Vici Luxury Rentals offer the perfect blend of community, comfort, and coastal sophistication.",
+      "description": "",
       "sources": [
         {
           "name": "Rent.com",
@@ -439,10 +136,10 @@
       "verified": true,
       "priceDrop": false,
       "propertyType": "APARTMENTS",
-      "qualityScore": 14,
+      "qualityScore": 13,
       "firstSeen": "2026-10-23T21:44:16.974Z",
-      "lastSeen": "2026-10-23T21:44:16.974Z",
-      "isNew": true
+      "lastSeen": "2026-10-23T22:02:43.896Z",
+      "isNew": false
     },
     {
       "id": "rent-lc6037960",
@@ -455,15 +152,15 @@
       "lat": 32.720828,
       "lng": -117.16959,
       "photos": [
-        "https://i.rent.com/t_3x2_fixed_webp_lg/a04ac11cfa551cc0aac5ffb2d43f4c50",
+        "https://i.rent.com/t_3x2_fixed_webp_lg/c6b7385b2c63a52e359fd5c17b3f33df",
         "https://i.rent.com/t_3x2_fixed_webp_lg/df3939a646b6fba3e350d6dc8cedba46",
+        "https://i.rent.com/t_3x2_fixed_webp_lg/a04ac11cfa551cc0aac5ffb2d43f4c50",
         "https://i.rent.com/t_3x2_fixed_webp_lg/e04ee376eece8b2653ee31bc3ae14599",
         "https://i.rent.com/t_3x2_fixed_webp_lg/6f1ec3d0304bb47ef52b160498d5cb20",
         "https://i.rent.com/t_3x2_fixed_webp_lg/8f858f694009d74339df6dfc396236d5",
         "https://i.rent.com/t_3x2_fixed_webp_lg/611754571a062f4f9040bdc0819fbadc",
         "https://i.rent.com/t_3x2_fixed_webp_lg/2a459eac917cecebe658a53010cd36f3",
         "https://i.rent.com/t_3x2_fixed_webp_lg/a33929b9659f35e22be3094f98c5cf36",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/c6b7385b2c63a52e359fd5c17b3f33df",
         "https://i.rent.com/t_3x2_fixed_webp_lg/c31078973ca60deb59b12eb9019cd2f0",
         "https://i.rent.com/t_3x2_fixed_webp_lg/55d7de3e4da265a22465ca2ba416cf1c",
         "https://i.rent.com/t_3x2_fixed_webp_lg/f759a4dfd122694a9563e36711925ac5"
@@ -511,7 +208,7 @@
         "Elevator",
         "Balcony, Patio, Deck"
       ],
-      "description": "In the heart of Downtown San Diego's Little Italy neighborhood stands Ariel Luxury Apartments, a luxurious and fanciful apartment complex. With just a quick walk-by, you'll notice the aquatic exterior themes of the complex meeting the Mid-Century Modern interior design like a romantic partnership. Beyond our theme and design lies our top-of-the-line, uniquely crafted suites and units, where the real value of Ariel lies. Featuring open floor plans, epicurean kitchens, and cozy living spaces, Ariel knows how to make your apartment feel like home.",
+      "description": "",
       "sources": [
         {
           "name": "Rent.com",
@@ -522,10 +219,10 @@
       "verified": true,
       "priceDrop": false,
       "propertyType": "APARTMENTS",
-      "qualityScore": 13,
+      "qualityScore": 12,
       "firstSeen": "2026-10-23T21:44:16.974Z",
-      "lastSeen": "2026-10-23T21:44:16.974Z",
-      "isNew": true
+      "lastSeen": "2026-10-23T22:02:43.896Z",
+      "isNew": false
     },
     {
       "id": "rent-lc6039411",
@@ -586,7 +283,7 @@
         "Elevator",
         "Balcony, Patio, Deck"
       ],
-      "description": "Welcome to Allegro Towers, San Diego's only downtown high-rise apartment building and community that boasts sweeping views of the city harbor and the stunningly beautiful San Diego bay. Our location in the bustling neighborhood of Little Italy is a perfect combination of big city life mixed with chill coastal vibes and the beauty of the Pacific Ocean. Allegro Towers is the ultimate high-rise apartment living experience: twenty-nine floors of stunning architecture, open floor plans, an upscale lifestyle, luxurious amenities, and ocean views to enjoy every single day.",
+      "description": "",
       "sources": [
         {
           "name": "Rent.com",
@@ -597,263 +294,10 @@
       "verified": true,
       "priceDrop": false,
       "propertyType": "APARTMENTS",
-      "qualityScore": 13,
+      "qualityScore": 12,
       "firstSeen": "2026-10-23T21:44:16.974Z",
-      "lastSeen": "2026-10-23T21:44:16.974Z",
-      "isNew": true
-    },
-    {
-      "id": "rent-lc5894735",
-      "name": "Simone Little Italy",
-      "areaId": "little-italy",
-      "areaName": "Little Italy",
-      "address": "1401 Union St",
-      "city": "San Diego",
-      "zip": "92101",
-      "lat": 32.720147,
-      "lng": -117.16549,
-      "photos": [
-        "https://i.rent.com/t_3x2_fixed_webp_lg/1a1bb5d853f9565e7d7fabd95d59cdad",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/ef546b293ae43dc3e10ac7c4d0ba420a",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/ae0c3f6dcc104a8d201bba3339a51675",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/4f48cbe1845e33a8ad8fcbd29708c6b8",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/a0419a1c2a83b888de1047504378cdf2",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/1e99d24c5524931b43d5869d5cd02c8d",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/6afe32e7f3c8d88a33f4799414fe14b8",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/d76befe5c69209e2e4d6e671a4889019",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/ba63ebd2997dd60de93b60c1c1f7a0dc",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/788f87a4d5ec78ba1bf0582ae07f193a",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/9579943d6f38bcc13cec739c13fb4d0e",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/123fd131b78fa463366e0a032ab24f5d",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/506a7d6e98c1f50c7c6b236f8e358ac7",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/90ffd053f9d4151fe3ed1516bc6665af",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/b5abe34ece08b587526f7833bb9cd70f",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/e3f05f73586671e323ba865e21467cec",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/44f52a4ca2acd99b8d8c80ad9610764b",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/34ab77887a0eab4b5087e4a71cea5c76",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/27f19711a875b4aefaab8a4b4fd3b609",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/e9fba98217e27624070076cc3b498fad",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/deca35e06f28bee2fe24ba68600cd338",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/a783f4870044b3756f25ba40a4c652f2",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/71e335d9e436f936b6fc9f18bda59cbc",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/fef8f655649c237daf1b4b76966853ea",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/579bd503df26c65f57a54eabe9dfb240",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/d72f226af6f5869c989afa9f5ecebc05",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/4431c66ab5a5a9bb70cd4fa7958a664f",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/e6aadcc7730ed86d74f87536f526c182",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/ba320b57a9ae5a657a04bf3c4173e1ef",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/c1c3959f9b1c0251fb882b1869a0b7cb",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/625b6eb0322c5035c5a305cd78e85c3d"
-      ],
-      "floorPlans": [
-        {
-          "beds": 0,
-          "baths": 1,
-          "minPrice": 3199,
-          "maxPrice": 3385,
-          "minSqft": 575,
-          "maxSqft": 575
-        },
-        {
-          "beds": 0,
-          "baths": 1,
-          "minPrice": 3340,
-          "maxPrice": 3700,
-          "minSqft": 569,
-          "maxSqft": 569
-        },
-        {
-          "beds": 0,
-          "baths": 1,
-          "minPrice": 2999,
-          "maxPrice": 3230,
-          "minSqft": 579,
-          "maxSqft": 579
-        }
-      ],
-      "minPrice": 2999,
-      "maxPrice": 3700,
-      "bedsMin": 0,
-      "bedsMax": 0,
-      "bathsMin": 1,
-      "bathsMax": 1,
-      "sqftMin": 569,
-      "sqftMax": 579,
-      "amenities": [
-        "Pet Friendly",
-        "Dishwasher"
-      ],
-      "description": "Simone presents an elevated residential experience in the heart of Little Italy, rising as one of San Diego's most iconic high-rises. Offering a collection of studio, one bedroom, and two bedroom residences and penthouses, each home is thoughtfully designed with modern finishes, expansive floor to ceiling windows, and sweeping views of the city and waterfront. Residents have access to a curated suite of amenities, including a rooftop pool and spa, sky lounge, state of the art fitness center, coworking spaces, and elegantly designed outdoor gathering areas, all within a pet friendly community. Ideally located just steps from acclaimed dining, local markets, and the waterfront, Simone offers a seamless blend of sophistication, convenience, and vibrant urban living.",
-      "sources": [
-        {
-          "name": "Rent.com",
-          "feed": "ZILLOW",
-          "url": "https://www.rent.com/apartment/simone-little-italy-san-diego-ca-lc5894735"
-        }
-      ],
-      "verified": true,
-      "priceDrop": true,
-      "propertyType": "APARTMENTS",
-      "qualityScore": 9,
-      "firstSeen": "2026-10-23T21:44:16.974Z",
-      "lastSeen": "2026-10-23T21:44:16.974Z",
-      "isNew": true
-    },
-    {
-      "id": "rent-lc6872608",
-      "name": "Elan Luxo II",
-      "areaId": "little-italy",
-      "areaName": "Little Italy",
-      "address": "1907 Columbia St",
-      "city": "San Diego",
-      "zip": "92101",
-      "lat": 32.724989,
-      "lng": -117.16771,
-      "photos": [
-        "https://i.rent.com/t_3x2_fixed_webp_lg/fa0c071ea39b7b34395a73fc7a883c7a",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/9b0407f978dc6491aa98c1f5b09322a4",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/0ebab651719bccc64a81147172134fec",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/1ae54e3c5de7bb573d330e0ff187b66c",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/3ffd4b319e15137eb770445ff3698597",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/5a4b94571406bccc6dbfc7b773e0b9dc",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/aead389500525779f34c84da08b53805",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/de7f80f9599d50a767d213aedc95b926",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/ad71d529738973bdfaf31938ad1acdcb",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/2a4ce1867b331449efefa98b8f24476e",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/fc048a1caf02d15d5cc73e93dd855ef0",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/4d7beed0535fddb2211edd168a1410f7",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/2df720022371925fcc7ce9763797b3dd",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/23a73771dc69c849c243e4288f4f1056",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/aee2b2462691fdeedef17c6d629c173c"
-      ],
-      "floorPlans": [
-        {
-          "beds": 1,
-          "baths": 1,
-          "minPrice": 2494,
-          "maxPrice": 2975,
-          "minSqft": 650,
-          "maxSqft": 650
-        }
-      ],
-      "minPrice": 2494,
-      "maxPrice": 2975,
-      "bedsMin": 1,
-      "bedsMax": 1,
-      "bathsMin": 1,
-      "bathsMax": 1,
-      "sqftMin": 650,
-      "sqftMax": 650,
-      "amenities": [
-        "Elevator"
-      ],
-      "description": "Welcome to Elan Luxo II Apartments Life here is about comfort with a modern edge. At Elan Luxo II, thoughtfully designed one- and two-bedroom apartments blend sleek finishes with integrated technology, creating a space that feels both elevated and easy to live in. Spacious layouts and refined details bring a sense of everyday luxury to your routine, without sacrificing comfort. Set in a walkable San Diego neighborhood, you're surrounded by dining, entertainment, and local nightlife, giving you effortless access to everything the city has to offer. Whether you're heading out or settling in, Elan Luxo II delivers a lifestyle that feels connected, convenient, and distinctly your own.",
-      "sources": [
-        {
-          "name": "Rent.com",
-          "feed": "ZILLOW",
-          "url": "https://www.rent.com/apartment/elan-luxo-ii-san-diego-ca-lc6872608"
-        }
-      ],
-      "verified": true,
-      "priceDrop": false,
-      "propertyType": "APARTMENTS",
-      "qualityScore": 8,
-      "firstSeen": "2026-10-23T21:44:16.974Z",
-      "lastSeen": "2026-10-23T21:44:16.974Z",
-      "isNew": true
-    },
-    {
-      "id": "rent-lc5918078",
-      "name": "Luma Apartments",
-      "areaId": "little-italy",
-      "areaName": "Little Italy",
-      "address": "1440 Columbia St",
-      "city": "San Diego",
-      "zip": "92101",
-      "lat": 32.72055,
-      "lng": -117.16739,
-      "photos": [
-        "https://i.rent.com/t_3x2_fixed_webp_lg/653c8aa29392d96fccd26e633379b73a",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/e77777dd9f7c7ee629b54c7391e233d2",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/bc1acd37d7fa227099360ae4ad8af72f",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/79a9866fee2307de3f6dd2c85aeb41c3",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/a771e815f55defdd2e26c5a967e6d7c3",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/7a8eea1de0dd8615721dda1cd6aaa6b5",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/0bd2ea3f367728a533085e97e6444b52",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/8b473c2448d467595211acdea4622a79",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/e1acc0cad5ca574ee390587ea21e9724",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/cdb35b79efb9c1b884015bbedba79f22",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/46f800fbbd146195fc9f7b72e80dcd83",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/365e709fcd4a716614ab71e806a3e849",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/8b0a7360632b541105026c3a806a9656",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/23578edbb5c9295ac7ebbae8d59f2969",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/710cf68108af6d5852430f84a86e1c03",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/c677ef7cb0241ec6dcf9cf4c390b5321",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/fa8e16c207c8e52618df7f3d8b75c077",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/10f9788e29def204b6e11b06a4b5dc42",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/5736df6c0b725399b8525edff6861456",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/67a45b73b2da1b3aed9b5af34f2909eb",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/87c523b1372a939fb177e74e2afaa2eb",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/d8e69366c5c3036e37494978262395b5",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/bb2e0217363a692c82dbc07d34a5924d",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/c382e660ec0173a9d93da832c4c6c828",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/f7562f750e2deabf629f5eb1e64d534c",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/15cb2055fc9de8fd2450698433fdc2aa"
-      ],
-      "floorPlans": [
-        {
-          "beds": 0,
-          "baths": 1,
-          "minPrice": 3190,
-          "maxPrice": 3190,
-          "minSqft": 588,
-          "maxSqft": 588
-        },
-        {
-          "beds": 0,
-          "baths": 1,
-          "minPrice": 2779,
-          "maxPrice": 2779,
-          "minSqft": 575,
-          "maxSqft": 575
-        },
-        {
-          "beds": 0,
-          "baths": 1,
-          "minPrice": 2916,
-          "maxPrice": 3081,
-          "minSqft": 588,
-          "maxSqft": 588
-        }
-      ],
-      "minPrice": 2779,
-      "maxPrice": 3190,
-      "bedsMin": 0,
-      "bedsMax": 0,
-      "bathsMin": 1,
-      "bathsMax": 1,
-      "sqftMin": 575,
-      "sqftMax": 588,
-      "amenities": [
-        "Pet Friendly",
-        "Fitness Center"
-      ],
-      "description": "Experience the vibrant rhythm of downtown San Diego living at our premier apartment community nestled in the charming Little Italy neighborhood. Discover the perfect fusion of luxury and convenience, where every detail is crafted to elevate your lifestyle. Step into spacious, meticulously designed residences featuring modern finishes and breathtaking city views. Dive into a world of unrivaled amenities, from our rooftop pool and lounge to our 24-hour fitness center. With the bustling streets of Little Italy at your doorstep, indulge in a diverse array of dining, shopping, and entertainment options just moments away. Embrace the essence of urban sophistication at our downtown San Diego apartment community, where every moment is infused with possibility.",
-      "sources": [
-        {
-          "name": "Rent.com",
-          "feed": "ZILLOW",
-          "url": "https://www.rent.com/apartment/luma-apartments-san-diego-ca-lc5918078"
-        }
-      ],
-      "verified": true,
-      "priceDrop": true,
-      "propertyType": "APARTMENTS",
-      "qualityScore": 8,
-      "firstSeen": "2026-10-23T21:44:16.974Z",
-      "lastSeen": "2026-10-23T21:44:16.974Z",
-      "isNew": true
+      "lastSeen": "2026-10-23T22:02:43.896Z",
+      "isNew": false
     },
     {
       "id": "rent-lc6392236",
@@ -866,16 +310,16 @@
       "lat": 32.724752,
       "lng": -117.1698,
       "photos": [
-        "https://i.rent.com/t_3x2_fixed_webp_lg/21dbbebd6334809fc459c334580bd897",
+        "https://i.rent.com/t_3x2_fixed_webp_lg/4912c7186733d5f52334b579ad69fadd",
         "https://i.rent.com/t_3x2_fixed_webp_lg/a73358d69013ed131deea3710766731b",
         "https://i.rent.com/t_3x2_fixed_webp_lg/f4eb2cad42e5c3c4146a4d8acfe46e6a",
         "https://i.rent.com/t_3x2_fixed_webp_lg/de7945c9db5e62874104412540f3bbc3",
         "https://i.rent.com/t_3x2_fixed_webp_lg/c3f8dc0a2ce80edc88a9c8742608c874",
         "https://i.rent.com/t_3x2_fixed_webp_lg/5798a11b57260e5439a51786b34bed0b",
+        "https://i.rent.com/t_3x2_fixed_webp_lg/21dbbebd6334809fc459c334580bd897",
         "https://i.rent.com/t_3x2_fixed_webp_lg/a3be8749c0d8a3a7e521258c2f378ee2",
         "https://i.rent.com/t_3x2_fixed_webp_lg/526ae9b2f50a67808accb1a9ce6047ed",
         "https://i.rent.com/t_3x2_fixed_webp_lg/46fcf7d553842f0ce5bfd07e57912acf",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/4912c7186733d5f52334b579ad69fadd",
         "https://i.rent.com/t_3x2_fixed_webp_lg/45b69309f7b4263570247d4bc0111bdb",
         "https://i.rent.com/t_3x2_fixed_webp_lg/56ec63163ee3f995fba3a0ee53fa929a",
         "https://i.rent.com/t_3x2_fixed_webp_lg/44cac904bca7e1586844113711987fde",
@@ -945,7 +389,7 @@
         "Hardwood Flooring",
         "Elevator"
       ],
-      "description": "Welcome Home to Instrata Little Italy! Life at Little Italy Living. Tour our 1- and 2-Bedroom Apartments! Instrata Little Italy offers spacious studio, one, and two bedroom apartments for rent in Little Italy, San Diego, one of the city's most walkable downtown neighborhoods. Located steps from Piazza della Famiglia, these modern luxury apartments place residents near the San Diego waterfront, cafes, nightlife, and top rated restaurants including Herb & Wood, Juniper & Ivy, and Born & Raised. Residents enjoy resort style amenities including a pool with lounge seating, a fully equipped fitness center, and a coworking and business center designed for remote work. Additional conveniences include EV charging stations and guest parking. With modern finishes and a highly walkable location, Instrata Little Italy delivers elevated apartment living in one of San Diego's most sought after neighborhoods.",
+      "description": "",
       "sources": [
         {
           "name": "Rent.com",
@@ -956,10 +400,10 @@
       "verified": true,
       "priceDrop": true,
       "propertyType": "APARTMENTS",
-      "qualityScore": 13,
+      "qualityScore": 12,
       "firstSeen": "2026-10-23T21:44:16.974Z",
-      "lastSeen": "2026-10-23T21:44:16.974Z",
-      "isNew": true
+      "lastSeen": "2026-10-23T22:02:43.896Z",
+      "isNew": false
     },
     {
       "id": "rent-lc5928685",
@@ -972,7 +416,7 @@
       "lat": 32.723954,
       "lng": -117.17122,
       "photos": [
-        "https://i.rent.com/t_3x2_fixed_webp_lg/a9bbf891a37fd39ff8811ae9cbf16757",
+        "https://i.rent.com/t_3x2_fixed_webp_lg/7f49ced7e74489258b50f868e2b4d422",
         "https://i.rent.com/t_3x2_fixed_webp_lg/95c6ddc3c62d31463a2d0f91e8fb4b8d",
         "https://i.rent.com/t_3x2_fixed_webp_lg/3b16e1940f2ecc5884edec32f3ac464a",
         "https://i.rent.com/t_3x2_fixed_webp_lg/8c39ee543d5fa54a2a2c777fffd793d0",
@@ -991,7 +435,7 @@
         "https://i.rent.com/t_3x2_fixed_webp_lg/065f39963acd4d9e2a53b31d2bf9585e",
         "https://i.rent.com/t_3x2_fixed_webp_lg/b55aae296323538597f8830b67078e87",
         "https://i.rent.com/t_3x2_fixed_webp_lg/c1508aec06fe7c03d2ecea30443020a4",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/7f49ced7e74489258b50f868e2b4d422",
+        "https://i.rent.com/t_3x2_fixed_webp_lg/a9bbf891a37fd39ff8811ae9cbf16757",
         "https://i.rent.com/t_3x2_fixed_webp_lg/4ce9730dd988997e4b5d92f8d26f0967",
         "https://i.rent.com/t_3x2_fixed_webp_lg/97b13b8dd813352ff55abe4af6e9473f",
         "https://i.rent.com/t_3x2_fixed_webp_lg/ff27be1436afcd7c18f878193a612303",
@@ -1034,7 +478,7 @@
         "Elevator",
         "Balcony, Patio, Deck"
       ],
-      "description": "Welcome to the World of Valentina. One and two-bedroom apartment homes with unobstructed views of the San Diego Bay now leasing. Set in Little Italy, a chic neighborhood with exquisite restaurants, upscale boutiques and a weekly farmers market, is the perfect place to call home.Greystar California, Inc. dba Greystar Corp. License No. 1525765 Broker: Gerard S. Donohue License No. 01265072 Floor plans are artist's rendering. All dimensions are approximate. Actual product and specifications may vary in dimension or detail. Not all features are available in every rental home. Please see a representative for details.",
+      "description": "",
       "sources": [
         {
           "name": "Rent.com",
@@ -1045,625 +489,10 @@
       "verified": true,
       "priceDrop": false,
       "propertyType": "APARTMENTS",
-      "qualityScore": 14,
-      "firstSeen": "2026-10-23T21:44:16.974Z",
-      "lastSeen": "2026-10-23T21:44:16.974Z",
-      "isNew": true
-    },
-    {
-      "id": "rent-lc5930016",
-      "name": "Cielo",
-      "areaId": "little-italy",
-      "areaName": "Little Italy",
-      "address": "915 W Grape St",
-      "city": "San Diego",
-      "zip": "92101",
-      "lat": 32.724637,
-      "lng": -117.17081,
-      "photos": [
-        "https://i.rent.com/t_3x2_fixed_webp_lg/0b6b019f9ee2eb95d16fb122d7d47bc4",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/e3c0093f7c5af072a337903eff5dfa03",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/3209da49ddbbf0867501e76d8373b18d",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/de084a9c4069dfc8607c8c439aac1cc1",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/148037202f6fd5cb38562e221f969a39",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/4e33e23098332b0ff56ba3b2e5716f67",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/17e3b43e6807585cd5165e38821ea004",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/71360e9600d216ceb7cd207e0b53a7f3",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/57bf296be457df7a1f11f4dab6ebe9a1",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/ab060c71482778e579fb81ea7fcd0e64",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/909a17c3a537cd29ed99007b1e72f235",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/e939daf66d07e0d718e2e15083aaa715",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/c4543cd0b12098e72122fee245ed01ec",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/e5d8ce059690b1de64bdfe35efec5908",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/cdc30422b6478a6628195410f3d608f1",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/46504e723e2bf757bf29b80d3b73368a",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/dd6f2fc6e2c0c2c47ca25394af9f43ae",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/191e5b9ff0836cf7617c6002fb2dae51",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/e438d5e4c8b984c6ffbc1e27700d6495",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/d3c06c633d9f56eaca86b227aa2f91ad",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/ffce4ba76bb62c382b3cbd89bb9ee94f",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/9433a99dd1394397a928edbe4599e457",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/61e6a81386430a7375129490482c205c",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/b969ad3c69b335b738d248c6e851487a",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/4110b91a4575ab26c9de6d02d0d85ff4",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/7cd8d9cedcd529a47a348faa2d2f7641"
-      ],
-      "floorPlans": [
-        {
-          "beds": 0,
-          "baths": 1,
-          "minPrice": 2892,
-          "maxPrice": 2892,
-          "minSqft": 593,
-          "maxSqft": 593
-        },
-        {
-          "beds": 1,
-          "baths": 1,
-          "minPrice": 2992,
-          "maxPrice": 2992,
-          "minSqft": 748,
-          "maxSqft": 748
-        },
-        {
-          "beds": 1,
-          "baths": 1,
-          "minPrice": 3077,
-          "maxPrice": 3125,
-          "minSqft": 876,
-          "maxSqft": 876
-        }
-      ],
-      "minPrice": 2892,
-      "maxPrice": 3125,
-      "bedsMin": 0,
-      "bedsMax": 1,
-      "bathsMin": 1,
-      "bathsMax": 1,
-      "sqftMin": 593,
-      "sqftMax": 876,
-      "amenities": [
-        "Pet Friendly",
-        "Air Conditioning",
-        "Balcony",
-        "Fitness Center"
-      ],
-      "description": "In-person tours now available! Schedule yours today! Greystar California, Inc. dba Greystar Corp. License No. 1525765 Broker: Gerard S. Donohue License No. 01265072 Floor plans are artist's rendering. All dimensions are approximate. Actual product and specifications may vary in dimension or detail. Not all features are available in every rental home. Please see a representative for details.",
-      "sources": [
-        {
-          "name": "Rent.com",
-          "feed": "ZILLOW",
-          "url": "https://www.rent.com/apartment/cielo-san-diego-ca-lc5930016"
-        }
-      ],
-      "verified": true,
-      "priceDrop": true,
-      "propertyType": "APARTMENTS",
-      "qualityScore": 12,
-      "firstSeen": "2026-10-23T21:44:16.974Z",
-      "lastSeen": "2026-10-23T21:44:16.974Z",
-      "isNew": true
-    },
-    {
-      "id": "rent-lc5891765",
-      "name": "Eighteen Ten State St",
-      "areaId": "little-italy",
-      "areaName": "Little Italy",
-      "address": "1810 State St",
-      "city": "San Diego",
-      "zip": "92101",
-      "lat": 32.724238,
-      "lng": -117.16699,
-      "photos": [
-        "https://i.rent.com/t_3x2_fixed_webp_lg/88370e1a43efc3f68113a72a1f7cd39f",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/d11ae145d60c75693bb6c400c26ded0d",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/6dd00b83cf550c86935a0c59de375751",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/eaf449bd7c6bde538a462c84d2cdfc37",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/ef27540e8ae6477813750a3981dc7ec6",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/e44f018da3a8484a8b7c95584b9362d7",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/38c4c13422988b54098bfa3f55647699",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/851408b377ec0db899816592f055989e",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/54327c4abd668206c5d05ec9851639be",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/9de06d9157017de5e19db189ebcf1f86",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/afd99b0970043e72e2908eeecd097fc9",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/7e669aa76564219e724b06e7771d56a9",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/b614c21fde1849341cb964ad2745048b",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/2818de039fd008aced3272894aa60085"
-      ],
-      "floorPlans": [
-        {
-          "beds": 0,
-          "baths": 1,
-          "minPrice": 3450,
-          "maxPrice": 3450,
-          "minSqft": 720,
-          "maxSqft": 720
-        },
-        {
-          "beds": 1,
-          "baths": 1,
-          "minPrice": 3430,
-          "maxPrice": 3430,
-          "minSqft": 574,
-          "maxSqft": 574
-        },
-        {
-          "beds": 1,
-          "baths": 1,
-          "minPrice": 3275,
-          "maxPrice": 3475,
-          "minSqft": 744,
-          "maxSqft": 744
-        },
-        {
-          "beds": 0,
-          "baths": 1,
-          "minPrice": 2799,
-          "maxPrice": 2849,
-          "minSqft": 557,
-          "maxSqft": 557
-        },
-        {
-          "beds": 0,
-          "baths": 1,
-          "minPrice": 2799,
-          "maxPrice": 2847,
-          "minSqft": 559,
-          "maxSqft": 559
-        },
-        {
-          "beds": 1,
-          "baths": 1,
-          "minPrice": 3125,
-          "maxPrice": 3125,
-          "minSqft": 711,
-          "maxSqft": 711
-        },
-        {
-          "beds": 1,
-          "baths": 1,
-          "minPrice": 3299,
-          "maxPrice": 3450,
-          "minSqft": 720,
-          "maxSqft": 720
-        }
-      ],
-      "minPrice": 2799,
-      "maxPrice": 3475,
-      "bedsMin": 0,
-      "bedsMax": 1,
-      "bathsMin": 1,
-      "bathsMax": 1,
-      "sqftMin": 557,
-      "sqftMax": 744,
-      "amenities": [
-        "Pet Friendly",
-        "Patio",
-        "Dishwasher",
-        "Hardwood Flooring"
-      ],
-      "description": "DESIGNER RESIDENCES WITH STYLED INTERIORS AND INCREDIBLE BAY VIEWSThe homes at 1810 State have been tailored for modern living, with bespoke designs that feature fresh looks, polished finishes, culinary-inspired kitchens and lavish baths. Each has a unique floor plan that has been curated to maximize living space as well as views of the San Diego skyline and bay.",
-      "sources": [
-        {
-          "name": "Rent.com",
-          "feed": "ZILLOW",
-          "url": "https://www.rent.com/apartment/eighteen-ten-state-st-san-diego-ca-lc5891765"
-        }
-      ],
-      "verified": true,
-      "priceDrop": false,
-      "propertyType": "APARTMENTS",
-      "qualityScore": 12,
-      "firstSeen": "2026-10-23T21:44:16.974Z",
-      "lastSeen": "2026-10-23T21:44:16.974Z",
-      "isNew": true
-    },
-    {
-      "id": "rent-lc5903810",
-      "name": "AV8 Little Italy",
-      "areaId": "little-italy",
-      "areaName": "Little Italy",
-      "address": "2155 Kettner Blvd",
-      "city": "San Diego",
-      "zip": "92101",
-      "lat": 32.72666,
-      "lng": -117.17049,
-      "photos": [
-        "https://i.rent.com/t_3x2_fixed_webp_lg/cd51864728ad7bfb248b29bfeaa603c2",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/7d89c059fcdd8d17e0f2db4615366f1a",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/94106cbc5417c304cce5bca057fa37a3",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/af628e4f4170b066794a30465001113a",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/49df499ae8e3a0e655d253c0e39550a0",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/da787381ebfe438e8f01dda75f77e6c3",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/465e9c79bcae6cf905326fe9d5635042",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/c665e79918e8fd77ec0594a1c195fb05",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/d7e4919c0cb2545ff2e523287f6f1fb3",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/40f4fd9e7f553af1e3c1a31c3a1bb5c5",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/4f3fb0eee499bbb4317612738a898d4a",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/30cf7ea0ef627d693517375059aca156",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/307aef32142371b1c440a6372973ecb6",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/b65d191837bfdf8d195b28ee894f050d",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/2fb36493c3401fa7e2bfe284ba45a236",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/33d6934c818bec8a08271ded6c317e48",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/bc672efe04636870357d44b8688b385e",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/b23c444bd9f452686d5d9d7ed8011e4f",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/ebb26df2fe0c38d2e78d5cc581ba57e4",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/93606935f565daa94272c28eb52e836a",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/07a2417ce1ca6abbd0b3c44dc780b66d",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/6a676968e1fd5b6aec7b5bf8cae259c5",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/9486360d9825bbd8a3bc6968d9fa1b8c",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/34a740df565ea71e7f4c9dab8f43c4ba",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/fdd049a69691d7b6f1592b3241a0b81a",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/caae195fa80bbbb7bb5c9798394a8556",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/c767be2ff271896bdd8dd3eeb743427c",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/80b8b8f4e4fb463f92313ec9775c69a3",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/42736d979ae9a2a92380f1355b8ed5a9",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/52ef1e252e87843202e7f2350f1050ce"
-      ],
-      "floorPlans": [
-        {
-          "beds": 0,
-          "baths": 1,
-          "minPrice": 2741,
-          "maxPrice": 2804,
-          "minSqft": 612,
-          "maxSqft": 612
-        },
-        {
-          "beds": 1,
-          "baths": 1,
-          "minPrice": 3210,
-          "maxPrice": 3239,
-          "minSqft": 713,
-          "maxSqft": 713
-        },
-        {
-          "beds": 1,
-          "baths": 1,
-          "minPrice": 3210,
-          "maxPrice": 3210,
-          "minSqft": 679,
-          "maxSqft": 679
-        },
-        {
-          "beds": 0,
-          "baths": 1,
-          "minPrice": 2710,
-          "maxPrice": 2710,
-          "minSqft": 595,
-          "maxSqft": 595
-        }
-      ],
-      "minPrice": 2710,
-      "maxPrice": 3239,
-      "bedsMin": 0,
-      "bedsMax": 1,
-      "bathsMin": 1,
-      "bathsMax": 1,
-      "sqftMin": 595,
-      "sqftMax": 713,
-      "amenities": [
-        "Pet Friendly",
-        "Fitness Center",
-        "Balcony, Patio, Deck"
-      ],
-      "description": "The sky is the limit at AV8 with one-of-a-kind apartments for rent. At our Little Italy apartments, you can choose from a selection of spacious studio, one, two, and three-bedroom floor plans. Explore the culture, community, and authenticity that makes our neighborhood a hot spot for both locals and visitors alike. No need to venture far as our pet-friendly apartments for rent deliver all the necessities within a close distance. You are at the heart of San Diego's best bars, restaurants, and activities. Though, with hotel quality features, amenities, and waterfront views, you may not want to leave your terrace. Call our leasing office today and schedule a tour! Greystar California, Inc. dba Greystar Corp. License No. 1525765 Broker: Gerard S. Donohue License No. 01265072 Floor plans are artist's rendering. All dimensions are approximate. Actual product and specifications may vary in dimension or detail. Not all features are available in every rental home. Please see a representative for details.",
-      "sources": [
-        {
-          "name": "Rent.com",
-          "feed": "ZILLOW",
-          "url": "https://www.rent.com/apartment/av8-little-italy-san-diego-ca-lc5903810"
-        }
-      ],
-      "verified": true,
-      "priceDrop": false,
-      "propertyType": "APARTMENTS",
-      "qualityScore": 10,
-      "firstSeen": "2026-10-23T21:44:16.974Z",
-      "lastSeen": "2026-10-23T21:44:16.974Z",
-      "isNew": true
-    },
-    {
-      "id": "rent-lc6893284",
-      "name": "Caprielle Apartments",
-      "areaId": "little-italy",
-      "areaName": "Little Italy",
-      "address": "1670 Kettner Blvd",
-      "city": "San Diego",
-      "zip": "92101",
-      "lat": 32.722455,
-      "lng": -117.16964,
-      "photos": [
-        "https://i.rent.com/t_3x2_fixed_webp_lg/6fd1b55bbc931265c9373256cae5f17a",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/a8b1ecdb62b4db3031486baf1ae74a73",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/8f2ee948faff2c14666763031e344717",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/b412bf72ea9a21a9d3beeee73cf286e7",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/2111c9b2edc984d47d749b9421dce820",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/1cb5fa20a9c30fa42c89e723bbddf3b9",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/9df0b5136732d629df1dbfb6e28a4a84",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/cd65670204a60df062009ae366b37b23",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/611e3dd6aff2a239b58db1f0ed006c0f",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/32d9790083ff881b4d3029a3575a7b7a",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/c300fb3c63bac95802d958182c6fb225",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/96b6d38e5df0aec9c70b12b2aeaaaa63",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/48c16037aac53d392d19b29eb155bf3e"
-      ],
-      "floorPlans": [
-        {
-          "beds": 1,
-          "baths": 1,
-          "minPrice": 2493,
-          "maxPrice": 2743,
-          "minSqft": 725,
-          "maxSqft": 725
-        },
-        {
-          "beds": 2,
-          "baths": 1,
-          "minPrice": 3464,
-          "maxPrice": 3474,
-          "minSqft": 950,
-          "maxSqft": 950
-        },
-        {
-          "beds": 1,
-          "baths": 1,
-          "minPrice": 2444,
-          "maxPrice": 2444,
-          "minSqft": 585,
-          "maxSqft": 585
-        }
-      ],
-      "minPrice": 2444,
-      "maxPrice": 3474,
-      "bedsMin": 1,
-      "bedsMax": 2,
-      "bathsMin": 1,
-      "bathsMax": 1,
-      "sqftMin": 585,
-      "sqftMax": 950,
-      "amenities": [
-        "Air Conditioning",
-        "Patio",
-        "Dishwasher",
-        "Fitness Center"
-      ],
-      "description": "Located in the heart of Little Italy, Caprielle Apartments places you within one of San Diego's most established neighborhoods, known for its dining scene, local markets, and waterfront access. India Street features a mix of longtime favorites like Buon Appetito and newer destinations like Herb & Wood and Born and Raised.Choose from 1 and 2 bedroom apartments or loft-style layouts designed with open living spaces, quartz countertops, stainless steel appliances, and an in-home washer and dryer.Fairfield Property Management, Inc. CA DRE #01889456",
-      "sources": [
-        {
-          "name": "Rent.com",
-          "feed": "ZILLOW",
-          "url": "https://www.rent.com/apartment/caprielle-apartments-san-diego-ca-lc6893284"
-        }
-      ],
-      "verified": true,
-      "priceDrop": true,
-      "propertyType": "APARTMENTS",
       "qualityScore": 13,
       "firstSeen": "2026-10-23T21:44:16.974Z",
-      "lastSeen": "2026-10-23T21:44:16.974Z",
-      "isNew": true
-    },
-    {
-      "id": "rent-lc5925677",
-      "name": "Vantaggio Suites State St. - Furnished, Flexible Leases, Utilities Included",
-      "areaId": "little-italy",
-      "areaName": "Little Italy",
-      "address": "1736 State St",
-      "city": "San Diego",
-      "zip": "92101",
-      "lat": 32.72344,
-      "lng": -117.16695,
-      "photos": [
-        "https://i.rent.com/t_3x2_fixed_webp_lg/a57ab4972f9b648790414e4333532d36",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/c9cf9a75ea49d8fb7af99edcdcc3c68a",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/b6e162193fb7f4294e0906867cc059bd",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/73914e9a3eb9d761a1023362248fa2ef",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/b0d54180e2b28fa52b16f6de4b9ced06",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/b9eaeb24b1d278d62c560b927a77df9f",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/36f84010389718b88e390729e40d7d7c",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/4481a212e210d43e0d12420130f781b6",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/be5ea575cc35cc28470c4dd9b61c3248",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/f93f6e207859f57137e3d7771ce6573b",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/9fd161e4d3808f18c234a0e54d696c62",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/8b124e4c7a17206db3bc79bd1c5cc2cb",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/f68489b532bf9b3b583973d423851eb1",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/a8315a5c15cc4721894c35c9854263ad",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/d21691d38bc4bfc8d9a7a43c0c574a74",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/690198681fa531b637c323e990eafa7d",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/3a689e01e9d877c3ad87d276356c996c",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/96839364a8f43f831559ecbd49be5d35",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/17853c051e2a812870f5d4b550dc247a",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/fdafc77388fec941a88e37a6e76f65f6",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/10c4e5923283074d54059ec9e061bd09",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/59ef2d2192f3edd499e188be07a43d07",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/d19e7abbd4b502bf75956ba681bc9556",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/4a8738936d279e1ee4b6f801cc574e72",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/1ac1f6c22be74914963d438441f7e41f",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/409022c98caf95b98c45e6f59f7bcf91",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/16888371bd59ba53ea5503688da97024",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/e74c3c0160ca4c4c78923739d3d35c68",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/c9cc5eb6ff418ee41c039e31151628ab",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/1c13de30e4bee60b4ea240d576aac4d9",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/ebc4fc619cb268c13c6a8dec2bb76c84",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/8a517c427eeddf3bcb63b229e2bf3164",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/63e6c329ca389bc3123d1f1e83e76e46"
-      ],
-      "floorPlans": [
-        {
-          "beds": 0,
-          "baths": 1,
-          "minPrice": 1600,
-          "maxPrice": 1800,
-          "minSqft": 220,
-          "maxSqft": 220
-        },
-        {
-          "beds": 0,
-          "baths": 1,
-          "minPrice": 1450,
-          "maxPrice": 1700,
-          "minSqft": 180,
-          "maxSqft": 180
-        },
-        {
-          "beds": 0,
-          "baths": 1,
-          "minPrice": 1550,
-          "maxPrice": 1800,
-          "minSqft": 220,
-          "maxSqft": 220
-        }
-      ],
-      "minPrice": 1450,
-      "maxPrice": 1800,
-      "bedsMin": 0,
-      "bedsMax": 0,
-      "bathsMin": 1,
-      "bathsMax": 1,
-      "sqftMin": 180,
-      "sqftMax": 220,
-      "amenities": [
-        "Patio",
-        "Fitness Center",
-        "Controlled Access",
-        "Elevator"
-      ],
-      "description": "Welcome to Vantaggio Suites State Street! Our units come fully furnished, but unfurnished units are available upon request. All utilities, gym, and laundry facilities access are included in the rent! Feel free to email us or visit us in person between 9 am and 5 pm. We are open every day, no appointment needed! We are located in the heart of Little Italy, a very charming and trendy neighborhood lined with sidewalk cafes, numerous restaurants, and bars. The Wednesday & Saturday Farmers' Markets and the Piazza della Famiglia with live music and free events are close by for your enjoyment. Note: We currently have a short waiting list for parking spaces. The parking rent is $200-250 per month.",
-      "sources": [
-        {
-          "name": "Rent.com",
-          "feed": "ZILLOW",
-          "url": "https://www.rent.com/apartment/vantaggio-suites-state-st-furnished-flexible-leases-utilities-included-san-diego-ca-lc5925677"
-        }
-      ],
-      "verified": true,
-      "priceDrop": false,
-      "propertyType": "APARTMENTS",
-      "qualityScore": 11,
-      "firstSeen": "2026-10-23T21:44:16.974Z",
-      "lastSeen": "2026-10-23T21:44:16.974Z",
-      "isNew": true
-    },
-    {
-      "id": "rent-lc6967447",
-      "name": "The Columbian",
-      "areaId": "little-italy",
-      "areaName": "Little Italy",
-      "address": "1941 Columbia St",
-      "city": "San Diego",
-      "zip": "92101",
-      "lat": 32.725352,
-      "lng": -117.16775,
-      "photos": [
-        "https://i.rent.com/t_3x2_fixed_webp_lg/2a384ba12dca9e58d9e0f7ad9df2b0f5",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/ff552f3d739b85878d9083349862510b",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/3fec360fe592e85384e45d1f5d59d148",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/763d554e131a9a5a541e34e27706f794",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/151d1412684af34dc11197f9abbd5386",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/102c5c5a0eeb0c1309ba8ae8f8cc4b75",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/83dbe1d556347dcd867da3cd82f26643",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/13a6a41f75f0dfe3b13e82c522c959aa",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/a7e4d8dccfdd0ca8b5a8bfb515562d87",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/91062b6bae8e9b3dc13ff0dcb187e8eb",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/e2ae5370f2285a5c02a38d429c47fb69",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/38a405e66d661b1d1513d157732fd8c8",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/1eff01727c963e66e1e024ad07a4b64b",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/3b3b4d92baa30106ac724eff1c2239e7",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/cd2d2c4fe42685ad859611e033a824a6",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/f4f308c32e4e1f2f6667ebcbc0973ac3",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/7e993d27669bf68aeb6b9dac18ae40ed",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/70ef3dc262f490ce9621f50e90307936",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/b6fefcd19efc68abfb782ca07954598b",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/3ab73979d33619f0b79f1b3bde2825ae",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/07b2c0fb7e0454783ed3e973f4795fc3",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/226b2b7325a377ebe5fde0c56c68c8b9",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/893e038368e532306064b946e8349e2f",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/53e10d6c85cd93b773533a301194eb87",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/93677fe2fa553db430ed8b33fd4f7e32",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/b989d0db0e8b8a2da145cce8fc65433f",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/a55f4cf7f77c712689a84d29e626f650",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/4cba6600cc885922ac96b3eec7842521",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/9bb4e1240cab683a445583eb8f9d0838",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/0e809471ef2ba1eac13efff16cc0cb6c",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/837a6ec5dace87c83624880ea3758d95",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/e481e70f93b146719a06695c4e721567",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/85630d3bb62ba1412be204a9c4f77953",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/15763aa8f7bb402651be30bf4c7fb2aa",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/cdbcc37bbb06c23262851479bebc8d1b",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/91cc16745872f8610e8ad9a249dde923",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/7b484a766f56a153bc2536db1c29e54e",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/e6b1d368caf13fb8356a190ef4c29732",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/ef4832337d078c5e35361edc37ca265f",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/9ae3bd679548486b24513de1265f9589",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/703ab41102d16e74c9ceae6689ca1f88",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/af78b00b4f4dacdd0222f5a372b47786",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/926c9196efefa07b9cfd7b986c039610",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/eedce16fd453a6860cae5f45e9b0b0df",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/e2976de0dc1cf37d865a3b8a2fe0f661",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/4f74e978a648bec679d1936b5e2ef502",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/9ac50f7b90d340d3d5f902ceb94dbc96",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/dbedd331b67d6958b0cc28a5af6e0854",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/938f0399c944e2d70235d79508b6b58d",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/a65a77d2e9624583591ec288245b15ca",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/61187a1218b1e597bde98b1c8ffcc5af",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/113054945b72f650e4fa9e295a906c96",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/e6be960df89604aab5d2241d1725a8fe",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/dd3ccf4fbe1b2655a7e3a12d9ff1f0b1",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/2d5fe84e92f4d290bb89f43b6cfb4d92",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/e8d247d5aa0738f44c4363e80ec76dcd",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/a2f91a16632144f0ed4b5ad9ba78673c",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/acb69153eb2f0fd678595dbfeea9fdb3",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/5974007d5ad8674af8d496cb6d3ff000",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/fef5e29351f227e5abc59d3f13713d6e",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/1c8b571858dac002d4c3ba4dfaa52ce5",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/a93c0aaafd4f245b59891b040c8d7048",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/ccd087cd8a8d8c7d5b1e3ec2ed8d937c"
-      ],
-      "floorPlans": [
-        {
-          "beds": 1,
-          "baths": 1,
-          "minPrice": 1995,
-          "maxPrice": 1995,
-          "minSqft": 360,
-          "maxSqft": 360
-        },
-        {
-          "beds": 2,
-          "baths": 2,
-          "minPrice": 3495,
-          "maxPrice": 3495,
-          "minSqft": 840,
-          "maxSqft": 840
-        }
-      ],
-      "minPrice": 1995,
-      "maxPrice": 3495,
-      "bedsMin": 1,
-      "bedsMax": 2,
-      "bathsMin": 1,
-      "bathsMax": 2,
-      "sqftMin": 360,
-      "sqftMax": 840,
-      "amenities": [
-        "Pet Friendly"
-      ],
-      "description": "The Columbian is an 18-residence boutique building by architect Jeff Svitak on one of Little Italy's most walkable blocks: polished concrete, clerestory windows and a planted courtyard. Every home has its own name and floor plan. Four are open now: THE GALLERY (Unit 302) A renovated one-bedroom laid out front to back: bright living room with a glass door to a private deck, quartz kitchen, marble-tiled walk-in shower, and the bedroom at the quiet end with a full wall of closet. Note: the bedroom has no door; it opens to the hallway. About 360 sq ft. THE CASITA (Unit 303) Two bed, two bath, laid out like a small house. A private entry deck separates the main residence from a second bedroom suite with its own bath. Second deck off the living room, in-unit washer/dryer, all on one level. About 840 sq ft. THE SKY LOFT (Unit 404) The top of the building over three levels: two bedrooms, a bath and laundry on the entry level; a double-height living room, kitchen and patio above; and a loft den on top that opens to a private deck with city and bay views. THE COURTYARD HOUSE (Unit 203, coming soon) Three bedrooms over two levels, entered from a private patio. One bedroom and bath sit on the patio level apart from the living space; two more bedrooms and a bath are upstairs. In-unit washer/dryer. About 1,011 sq ft. Self-guided tours 7 days a week. Pets welcome ($25/mo per pet). Parking available ($150/mo). Professionally managed by Advani Property Management. A few blocks from the Little Italy Mercato (Wednesdays and Saturdays), Piazza della Famiglia and the neighborhood's restaurants, cafes and wine bars. The Santa Fe Depot and the waterfront are an easy walk, with quick I-5 access.",
-      "sources": [
-        {
-          "name": "Rent.com",
-          "feed": "ZILLOW",
-          "url": "https://www.rent.com/apartment/the-columbian-san-diego-ca-lc6967447"
-        }
-      ],
-      "verified": true,
-      "priceDrop": false,
-      "propertyType": "APARTMENTS",
-      "qualityScore": 8,
-      "firstSeen": "2026-10-23T21:44:16.974Z",
-      "lastSeen": "2026-10-23T21:44:16.974Z",
-      "isNew": true
+      "lastSeen": "2026-10-23T22:02:43.896Z",
+      "isNew": false
     },
     {
       "id": "rent-lv3288964350",
@@ -1736,8 +565,8 @@
       "propertyType": "APARTMENTS",
       "qualityScore": 10,
       "firstSeen": "2026-10-23T21:44:16.974Z",
-      "lastSeen": "2026-10-23T21:44:16.974Z",
-      "isNew": true
+      "lastSeen": "2026-10-23T22:02:43.896Z",
+      "isNew": false
     },
     {
       "id": "rent-lc5919351",
@@ -1750,7 +579,7 @@
       "lat": 32.726529,
       "lng": -117.16089,
       "photos": [
-        "https://i.rent.com/t_3x2_fixed_webp_lg/4e4977a21cce8e9d3ce9c559efdcff49",
+        "https://i.rent.com/t_3x2_fixed_webp_lg/90331ad07fa73cad9216e596a1f5588f",
         "https://i.rent.com/t_3x2_fixed_webp_lg/0496abf7e150cf0ef5b83ef6034d1b97",
         "https://i.rent.com/t_3x2_fixed_webp_lg/ac63b791bb51096a73e5b74a987dc66c",
         "https://i.rent.com/t_3x2_fixed_webp_lg/6e456386af4505eace4a5a58dd5aa750",
@@ -1784,7 +613,6 @@
         "https://i.rent.com/t_3x2_fixed_webp_lg/03857cb03d354adbee3d6330b2418835",
         "https://i.rent.com/t_3x2_fixed_webp_lg/ea82ef57fe05596f3454e80e92512f43",
         "https://i.rent.com/t_3x2_fixed_webp_lg/6aed75c870ca7f639107b40d60884214",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/90331ad07fa73cad9216e596a1f5588f",
         "https://i.rent.com/t_3x2_fixed_webp_lg/e07ca39b81194b0f1de7634833c990e2",
         "https://i.rent.com/t_3x2_fixed_webp_lg/df94b3a79d9f17e0d403878b21e966f2",
         "https://i.rent.com/t_3x2_fixed_webp_lg/e3bc1315014f1a199b515fb99f65ea73",
@@ -1800,7 +628,8 @@
         "https://i.rent.com/t_3x2_fixed_webp_lg/0d6e3fc52a7516e2fb60f8a4299ff5b9",
         "https://i.rent.com/t_3x2_fixed_webp_lg/f90abb86a5421eaf8e1645df191a9c78",
         "https://i.rent.com/t_3x2_fixed_webp_lg/251fbd41f7aea777413258a3a3b2ac2f",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/67dba3d6141b84b97d54f25e08f867d7"
+        "https://i.rent.com/t_3x2_fixed_webp_lg/67dba3d6141b84b97d54f25e08f867d7",
+        "https://i.rent.com/t_3x2_fixed_webp_lg/4e4977a21cce8e9d3ce9c559efdcff49"
       ],
       "floorPlans": [
         {
@@ -1849,8 +678,8 @@
       "propertyType": "APARTMENTS",
       "qualityScore": 13,
       "firstSeen": "2026-10-23T21:44:16.974Z",
-      "lastSeen": "2026-10-23T21:44:16.974Z",
-      "isNew": true
+      "lastSeen": "2026-10-23T22:02:43.896Z",
+      "isNew": false
     },
     {
       "id": "rent-lc6903587",
@@ -1863,7 +692,7 @@
       "lat": 32.716235,
       "lng": -117.16546,
       "photos": [
-        "https://i.rent.com/t_3x2_fixed_webp_lg/104c2110473c49b6d7ae2e050e18d09c",
+        "https://i.rent.com/t_3x2_fixed_webp_lg/4edd752cde6bbaeec08d4b29c1ed82f4",
         "https://i.rent.com/t_3x2_fixed_webp_lg/efca119d691653d626ae449c6acf6d5f",
         "https://i.rent.com/t_3x2_fixed_webp_lg/191720eb8e0803d3c94b7f7a04a4b193",
         "https://i.rent.com/t_3x2_fixed_webp_lg/351493af2a25bec1686da296921f7f81",
@@ -1903,6 +732,7 @@
         "https://i.rent.com/t_3x2_fixed_webp_lg/a398e234f79d6e5c495bafbba8fd8d27",
         "https://i.rent.com/t_3x2_fixed_webp_lg/4882324599b6c54515d2b8fb37114f87",
         "https://i.rent.com/t_3x2_fixed_webp_lg/cb20b1e0d055999ee40ba3d66ef8aefd",
+        "https://i.rent.com/t_3x2_fixed_webp_lg/104c2110473c49b6d7ae2e050e18d09c",
         "https://i.rent.com/t_3x2_fixed_webp_lg/6ef5a6353169c1b0303c249f1076fd80",
         "https://i.rent.com/t_3x2_fixed_webp_lg/f5b35a1a5dd44d8fde592e3fae8ae2c2",
         "https://i.rent.com/t_3x2_fixed_webp_lg/617677bb31748c85163693012b48da74",
@@ -1928,7 +758,6 @@
         "https://i.rent.com/t_3x2_fixed_webp_lg/508d9a46929cbb6cf552d3e689d1d8a6",
         "https://i.rent.com/t_3x2_fixed_webp_lg/3f69a24ee0c178545efbdcf9c30a05b7",
         "https://i.rent.com/t_3x2_fixed_webp_lg/cbbd192e27c8ca798e0eef29942c78c4",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/4edd752cde6bbaeec08d4b29c1ed82f4",
         "https://i.rent.com/t_3x2_fixed_webp_lg/b1c5ffe82e13394cfc84f5de7803d2da",
         "https://i.rent.com/t_3x2_fixed_webp_lg/1b130d3ab108a1d5015e4df70467e239",
         "https://i.rent.com/t_3x2_fixed_webp_lg/2ac43ef74160964284a3f734c48bb535",
@@ -2001,7 +830,7 @@
         "Fitness Center",
         "Elevator"
       ],
-      "description": "West, a brand-new luxury apartment community, offers modern yet elegant floor plans, resort-style amenities, and designer finishes to elevate your lifestyle. Ideally located just steps from the vibrant Little Italy neighborhood, West places you within walking distance of San Diego's best dining, shopping, and cultural experiencesblending urban energy with coastal charm. Discover your opportunity to enjoy luxury and comfort in our studio, one-bedroom, two-bedroom, and three-bedroom residences. Contact us today to schedule your tour of West. Holland Residential California DRE License #01378119",
+      "description": "",
       "sources": [
         {
           "name": "Rent.com",
@@ -2012,10 +841,10 @@
       "verified": true,
       "priceDrop": true,
       "propertyType": "APARTMENTS",
-      "qualityScore": 13,
+      "qualityScore": 12,
       "firstSeen": "2026-10-23T21:44:16.974Z",
-      "lastSeen": "2026-10-23T21:44:16.974Z",
-      "isNew": true
+      "lastSeen": "2026-10-23T22:02:43.896Z",
+      "isNew": false
     },
     {
       "id": "rent-lc5892847",
@@ -2028,7 +857,7 @@
       "lat": 32.715873,
       "lng": -117.15986,
       "photos": [
-        "https://i.rent.com/t_3x2_fixed_webp_lg/e14176f6b0c2e5e7d2bcc3189857ea39",
+        "https://i.rent.com/t_3x2_fixed_webp_lg/9a636a53a4e0e3ce5ed5351f845ee568",
         "https://i.rent.com/t_3x2_fixed_webp_lg/dde4d7c517c12ede92a29fe49da3a5f9",
         "https://i.rent.com/t_3x2_fixed_webp_lg/bfc504ffaf862c86f1f116f1671a6351",
         "https://i.rent.com/t_3x2_fixed_webp_lg/481e6c411b1a2dc84e6fa3d1f3153344",
@@ -2042,7 +871,6 @@
         "https://i.rent.com/t_3x2_fixed_webp_lg/1e15aafb3cf09956a0e90dd5762159d6",
         "https://i.rent.com/t_3x2_fixed_webp_lg/7d0cc3814c4f62825a631f5546b2ddfe",
         "https://i.rent.com/t_3x2_fixed_webp_lg/63d5bf1ddb29e24908efc9869838b69c",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/9a636a53a4e0e3ce5ed5351f845ee568",
         "https://i.rent.com/t_3x2_fixed_webp_lg/efbe523503d42043a2f0bad65a5eeee7",
         "https://i.rent.com/t_3x2_fixed_webp_lg/f4005d5dfe4ad1655c97a7ff9b26e615",
         "https://i.rent.com/t_3x2_fixed_webp_lg/ae8c48617341075af62528deaabbb1d0",
@@ -2054,6 +882,7 @@
         "https://i.rent.com/t_3x2_fixed_webp_lg/2c2f05f45916889d51767a3074b0d857",
         "https://i.rent.com/t_3x2_fixed_webp_lg/e02060f374482ca505e3387b677abab6",
         "https://i.rent.com/t_3x2_fixed_webp_lg/34fc8d3a240d760a1bcc8e879c7e7e8e",
+        "https://i.rent.com/t_3x2_fixed_webp_lg/e14176f6b0c2e5e7d2bcc3189857ea39",
         "https://i.rent.com/t_3x2_fixed_webp_lg/3d7944a61f79e0a83b90faa428245c25",
         "https://i.rent.com/t_3x2_fixed_webp_lg/74bbcb25b367bd347954d2db475bb2b9",
         "https://i.rent.com/t_3x2_fixed_webp_lg/7563982d06f6eb770e04231f4659f48a",
@@ -2171,8 +1000,8 @@
       "propertyType": "APARTMENTS",
       "qualityScore": 12,
       "firstSeen": "2026-10-23T21:44:16.974Z",
-      "lastSeen": "2026-10-23T21:44:16.974Z",
-      "isNew": true
+      "lastSeen": "2026-10-23T22:02:43.896Z",
+      "isNew": false
     },
     {
       "id": "rent-lc6133943",
@@ -2185,14 +1014,13 @@
       "lat": 32.733676,
       "lng": -117.16244,
       "photos": [
-        "https://i.rent.com/t_3x2_fixed_webp_lg/a0f09746953e122773bb6b77ca74c6b7",
+        "https://i.rent.com/t_3x2_fixed_webp_lg/e4828cc9d0e5c835549b149339d1f7c7",
         "https://i.rent.com/t_3x2_fixed_webp_lg/1b8c6ee5fb25aeb6b43973576bb7e91d",
         "https://i.rent.com/t_3x2_fixed_webp_lg/39f39ca019ef4fd223154ec4cc2a82ad",
         "https://i.rent.com/t_3x2_fixed_webp_lg/54d18a0ac7a1ca2515394f946ca7eb62",
         "https://i.rent.com/t_3x2_fixed_webp_lg/04b0f1aea5fb1b3ab9e92a669e761b5c",
         "https://i.rent.com/t_3x2_fixed_webp_lg/0c71c79e5dcce9d575345e01513932c4",
         "https://i.rent.com/t_3x2_fixed_webp_lg/258a2a57966086bc26a7b4a4598dc11b",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/e4828cc9d0e5c835549b149339d1f7c7",
         "https://i.rent.com/t_3x2_fixed_webp_lg/255d4af6f3abe738b4686a4a0ebfea53",
         "https://i.rent.com/t_3x2_fixed_webp_lg/0777a7ccee85cf779aa153e2368a3de8",
         "https://i.rent.com/t_3x2_fixed_webp_lg/4857f79b715de747d6464e5efa744363",
@@ -2238,6 +1066,7 @@
         "https://i.rent.com/t_3x2_fixed_webp_lg/18ee3f23fc59467d05f9609f8e6885e5",
         "https://i.rent.com/t_3x2_fixed_webp_lg/2ac2b4b51d2596613fc91f2740c40344",
         "https://i.rent.com/t_3x2_fixed_webp_lg/d1e1e053ac15c3e0d10241614e73779c",
+        "https://i.rent.com/t_3x2_fixed_webp_lg/a0f09746953e122773bb6b77ca74c6b7",
         "https://i.rent.com/t_3x2_fixed_webp_lg/1a4a8710184209656305755c68020994",
         "https://i.rent.com/t_3x2_fixed_webp_lg/0ad7d06e45fff0bba6e6e33c1852ecd4",
         "https://i.rent.com/t_3x2_fixed_webp_lg/80c727578b6ef98735f3d3ec3cf25215",
@@ -2320,128 +1149,8 @@
       "propertyType": "APARTMENTS",
       "qualityScore": 11,
       "firstSeen": "2026-10-23T21:44:16.974Z",
-      "lastSeen": "2026-10-23T21:44:16.974Z",
-      "isNew": true
-    },
-    {
-      "id": "rent-lc6864749",
-      "name": "Flora + Fauna",
-      "areaId": "little-italy",
-      "areaName": "Little Italy",
-      "address": "2191 4th Ave",
-      "city": "San Diego",
-      "zip": "92101",
-      "lat": 32.728129,
-      "lng": -117.16099,
-      "photos": [
-        "https://i.rent.com/t_3x2_fixed_webp_lg/9a131c38ad4e8a47abafcd9634863060",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/c0b8bb49629760daaef310422c3efb08",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/6381fa420341ca7cfff338950d7b916f",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/c78796e11cfa43110d22c3485281e757",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/4a4a924d1e7863772c4aa3e1c079ebd2",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/824ecd38712427217b88891be6cb27d8",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/f135995ec9d8e4ed8cf30f0627fb4a98",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/f8a2762fcb51fc28752cea9751f75694",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/4eff12d62eb9c57d2fd974b85884b70b",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/54284de8aefbf217c883e10aedab3d33",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/ba6f51aff61f9a894738ab169be623db"
-      ],
-      "floorPlans": [
-        {
-          "beds": 1,
-          "baths": 1,
-          "minPrice": 3415,
-          "maxPrice": 4050,
-          "minSqft": 671,
-          "maxSqft": 726
-        },
-        {
-          "beds": 1,
-          "baths": 1,
-          "minPrice": 3038,
-          "maxPrice": 3538,
-          "minSqft": 577,
-          "maxSqft": 632
-        },
-        {
-          "beds": 1,
-          "baths": 1,
-          "minPrice": 3299,
-          "maxPrice": 3609,
-          "minSqft": 678,
-          "maxSqft": 678
-        },
-        {
-          "beds": 1,
-          "baths": 1,
-          "minPrice": 3395,
-          "maxPrice": 4093,
-          "minSqft": 669,
-          "maxSqft": 816
-        },
-        {
-          "beds": 0,
-          "baths": 1,
-          "minPrice": 2545,
-          "maxPrice": 2755,
-          "minSqft": 499,
-          "maxSqft": 499
-        },
-        {
-          "beds": 1,
-          "baths": 1,
-          "minPrice": 3231,
-          "maxPrice": 3606,
-          "minSqft": 595,
-          "maxSqft": 595
-        },
-        {
-          "beds": 1,
-          "baths": 1,
-          "minPrice": 3173,
-          "maxPrice": 3373,
-          "minSqft": 627,
-          "maxSqft": 627
-        },
-        {
-          "beds": 0,
-          "baths": 1,
-          "minPrice": 2695,
-          "maxPrice": 2845,
-          "minSqft": 545,
-          "maxSqft": 545
-        }
-      ],
-      "minPrice": 2545,
-      "maxPrice": 4093,
-      "bedsMin": 0,
-      "bedsMax": 1,
-      "bathsMin": 1,
-      "bathsMax": 1,
-      "sqftMin": 499,
-      "sqftMax": 816,
-      "amenities": [
-        "Pet Friendly",
-        "Fitness Center",
-        "Controlled Access",
-        "Elevator",
-        "Balcony, Patio, Deck"
-      ],
-      "description": "Cultivated Living from the Ground Up. Welcome to Flora + Fauna, a community shaped by nature and modern living. The Indoors, Reimagined by Nature.Welcome to Flora + Fauna, a community shaped by nature and modern living. Here, natural finishes and organic textures serve as a quiet ode to nature, cultivating an elevated living experience that's grounded, private, and refined. Set between Balboa Park and Downtown San Diego, and just minutes from the San Diego International Airport, Flora + Fauna offers a beautiful balance of connection and retreat. Amenities including a sun deck and pool extend that sense of ease outdoors. Our studios, one, and two-bedroom apartments serve as personal sanctuaries and spaces to settle in, breathe, and feel at home, naturally.",
-      "sources": [
-        {
-          "name": "Rent.com",
-          "feed": "ZILLOW",
-          "url": "https://www.rent.com/apartment/flora-fauna-san-diego-ca-lc6864749"
-        }
-      ],
-      "verified": true,
-      "priceDrop": true,
-      "propertyType": "APARTMENTS",
-      "qualityScore": 11,
-      "firstSeen": "2026-10-23T21:44:16.974Z",
-      "lastSeen": "2026-10-23T21:44:16.974Z",
-      "isNew": true
+      "lastSeen": "2026-10-23T22:02:43.896Z",
+      "isNew": false
     },
     {
       "id": "rent-lc5967526",
@@ -2454,7 +1163,7 @@
       "lat": 32.712089,
       "lng": -117.16499,
       "photos": [
-        "https://i.rent.com/t_3x2_fixed_webp_lg/106f676c9d6a1b7ea9c82679087c5b79",
+        "https://i.rent.com/t_3x2_fixed_webp_lg/613581c83697857d75e11f5c8171fd0c",
         "https://i.rent.com/t_3x2_fixed_webp_lg/a59ffdfb629a385120a1508261564041",
         "https://i.rent.com/t_3x2_fixed_webp_lg/2730d3ef5a07eceacd6e9f10462b5e3d",
         "https://i.rent.com/t_3x2_fixed_webp_lg/d7d5d8a9a17399d1c172bcab614b4900",
@@ -2466,7 +1175,6 @@
         "https://i.rent.com/t_3x2_fixed_webp_lg/7a358c96e5e6c002c92972370d0f20f2",
         "https://i.rent.com/t_3x2_fixed_webp_lg/f24c33627dc8d338bd73592d28f0c10e",
         "https://i.rent.com/t_3x2_fixed_webp_lg/096f3554744694069eec6714af07ed71",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/613581c83697857d75e11f5c8171fd0c",
         "https://i.rent.com/t_3x2_fixed_webp_lg/31fd30f8d00310995c45004c47659c3d",
         "https://i.rent.com/t_3x2_fixed_webp_lg/31ac3233c77e914f518df0a99f1ee465",
         "https://i.rent.com/t_3x2_fixed_webp_lg/5cc367e69470513c34d5b5dc462dfbce",
@@ -2478,6 +1186,7 @@
         "https://i.rent.com/t_3x2_fixed_webp_lg/242cd52096d5dc7617e005593de94895",
         "https://i.rent.com/t_3x2_fixed_webp_lg/6e1a4eca29182d6fb7298909bc430039",
         "https://i.rent.com/t_3x2_fixed_webp_lg/c555b3789953c1c02d3641ab47f51b05",
+        "https://i.rent.com/t_3x2_fixed_webp_lg/106f676c9d6a1b7ea9c82679087c5b79",
         "https://i.rent.com/t_3x2_fixed_webp_lg/fac0f330e97dd8a740ecc90d500bd266",
         "https://i.rent.com/t_3x2_fixed_webp_lg/29b15152d862a498edd8d525fa73bd37",
         "https://i.rent.com/t_3x2_fixed_webp_lg/8968e4bcd36f255a44a41e15362fe179",
@@ -2585,8 +1294,8 @@
       "propertyType": "APARTMENTS",
       "qualityScore": 11,
       "firstSeen": "2026-10-23T21:44:16.974Z",
-      "lastSeen": "2026-10-23T21:44:16.974Z",
-      "isNew": true
+      "lastSeen": "2026-10-23T22:02:43.896Z",
+      "isNew": false
     },
     {
       "id": "rent-lc6649847",
@@ -2599,7 +1308,7 @@
       "lat": 32.717932,
       "lng": -117.16486,
       "photos": [
-        "https://i.rent.com/t_3x2_fixed_webp_lg/4fbd650c6a49c8fa38a8d41764d5948b",
+        "https://i.rent.com/t_3x2_fixed_webp_lg/b511e25f29df5a3c7b5a96344d1529c7",
         "https://i.rent.com/t_3x2_fixed_webp_lg/06d9b4abda9b0db3a2a5daa6bc914a2f",
         "https://i.rent.com/t_3x2_fixed_webp_lg/5b6bc889ed73fdf141ff8f5f90349c47",
         "https://i.rent.com/t_3x2_fixed_webp_lg/b42216b43f84508baffe57c634927ca3",
@@ -2616,7 +1325,6 @@
         "https://i.rent.com/t_3x2_fixed_webp_lg/ae2a23196eff647541f55565ca0cd93b",
         "https://i.rent.com/t_3x2_fixed_webp_lg/b3c2b10db22956c43581d876bdae52e7",
         "https://i.rent.com/t_3x2_fixed_webp_lg/3464a7b02a80ac163dc117ab7fc497b4",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/b511e25f29df5a3c7b5a96344d1529c7",
         "https://i.rent.com/t_3x2_fixed_webp_lg/c8076e51cbd94edc717b094ecaa8d564",
         "https://i.rent.com/t_3x2_fixed_webp_lg/8f5b43b5c59e34d134a9669909becf34",
         "https://i.rent.com/t_3x2_fixed_webp_lg/d3aa48e70e191b0269373b0217fcec3d",
@@ -2629,6 +1337,7 @@
         "https://i.rent.com/t_3x2_fixed_webp_lg/4dab52d08241a7dee77142d2df44cdc9",
         "https://i.rent.com/t_3x2_fixed_webp_lg/4e13b27e8f54380d0ef9885417e7073b",
         "https://i.rent.com/t_3x2_fixed_webp_lg/8f6c3ffac4d241111c7be70ed27dd57d",
+        "https://i.rent.com/t_3x2_fixed_webp_lg/4fbd650c6a49c8fa38a8d41764d5948b",
         "https://i.rent.com/t_3x2_fixed_webp_lg/0e9c222777f5384505e1ad4f2eb34a7c",
         "https://i.rent.com/t_3x2_fixed_webp_lg/12e12d8604ee390ef845ec872781ee13",
         "https://i.rent.com/t_3x2_fixed_webp_lg/c697337d506c449c35d7fc3a9b351c8b",
@@ -2716,8 +1425,8 @@
       "propertyType": "APARTMENTS",
       "qualityScore": 12,
       "firstSeen": "2026-10-23T21:44:16.974Z",
-      "lastSeen": "2026-10-23T21:44:16.974Z",
-      "isNew": true
+      "lastSeen": "2026-10-23T22:02:43.896Z",
+      "isNew": false
     },
     {
       "id": "rent-lv3325585568",
@@ -2752,9 +1461,7 @@
           "beds": 2,
           "baths": 1,
           "minPrice": 2995,
-          "maxPrice": 2995,
-          "minSqft": 0,
-          "maxSqft": 0
+          "maxPrice": 2995
         }
       ],
       "minPrice": 2995,
@@ -2763,8 +1470,6 @@
       "bedsMax": 2,
       "bathsMin": 1,
       "bathsMax": 1,
-      "sqftMin": 0,
-      "sqftMax": 0,
       "amenities": [
         "Pet Friendly",
         "Washer & Dryer In Unit",
@@ -2786,79 +1491,8 @@
       "propertyType": "APARTMENTS",
       "qualityScore": 9,
       "firstSeen": "2026-10-23T21:44:16.974Z",
-      "lastSeen": "2026-10-23T21:44:16.974Z",
-      "isNew": true
-    },
-    {
-      "id": "rent-lc5907708",
-      "name": "Elan Cardiff By The Sea",
-      "areaId": "cardiff",
-      "areaName": "Cardiff-by-the-Sea",
-      "address": "2170 Carol View Dr",
-      "city": "Cardiff By The Sea",
-      "zip": "92007",
-      "lat": 33.024186,
-      "lng": -117.2746,
-      "photos": [
-        "https://i.rent.com/t_3x2_fixed_webp_lg/9c06d96f343b16d9aa8f627afdf6e3b4",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/32aea35914de61c8955e82b895e8999c",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/33a3bcc85195b1a920b9d356ec20e478",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/663914c1d4679aeacadffd31b009a78f",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/d4e9ca55f31ce5aea12761930bde4463",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/823992c67cd5ca8f7967bc8300d26ee7",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/a71fe9c3958be90430a950ee9d50c880",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/c41f08b84a9a2af34ce926cb89a8c2e7",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/fd1a135b6fab26a6565cac339639dd0e",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/9a8961e48a0a350d1f5c138f52a2a622",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/e7b0c9af51b128c0c98b1cccde735607",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/7d3a228f9dd4651ebc0b10446e2ea6ba",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/b306c30158613e65f9da9765b26b5ae3",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/11ae815e4efed8f6ad6ace43f1e23b56",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/b38325d96a1540ba3cd38c51a2c90ac9",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/289513a127507e39785186a4455f92cf",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/c88140fc55e1eedba299cab6bcdec899",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/9e9b624e9cdfe47ff121ac8d1f6911d3",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/42d1a75a49e3904802fc16ffce90675d",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/d2c280f353e067d763b87de105f3121b"
-      ],
-      "floorPlans": [
-        {
-          "beds": 1,
-          "baths": 1,
-          "minPrice": 2845,
-          "maxPrice": 2845,
-          "minSqft": 775,
-          "maxSqft": 775
-        }
-      ],
-      "minPrice": 2845,
-      "maxPrice": 2845,
-      "bedsMin": 1,
-      "bedsMax": 1,
-      "bathsMin": 1,
-      "bathsMax": 1,
-      "sqftMin": 775,
-      "sqftMax": 775,
-      "amenities": [
-        "Pet Friendly",
-        "Patio",
-        "Fitness Center"
-      ],
-      "description": "In the enchanting embrace of ELAN CARDIFF BY THE SEA, love blossoms amidst the caress of coastal breezes. Encinitas, a town that intertwines the allure of sun-kissed shores with a close-knit community, sets the scene for passion. Amidst the rhythm of the waves, heartbeats synchronize. Within this gated haven, lovers steal quiet moments on private balconies, their gazes lost in infinite horizons. Mornings begin with shared yoga sessions, while dusks are sealed with dances under the twilight. As tennis balls find rhythm on the courts, so do hearts, finding harmony amidst the two shimmering pools reflecting the azure sky. Steps away, the world-class beaches beckon, where footprints tell tales of whispered promises and lingering glances. By day, surfers chase waves at Cardiff Reef; by night, hands entwine amidst the glow of Encinitas Community Park. At ELAN CARDIFF BY THE SEA, every sunset is a sonnet, and every whisper, a vow.",
-      "sources": [
-        {
-          "name": "Rent.com",
-          "feed": "ZILLOW",
-          "url": "https://www.rent.com/apartment/elan-cardiff-by-the-sea-cardiff-by-the-sea-ca-lc5907708"
-        }
-      ],
-      "verified": true,
-      "priceDrop": false,
-      "propertyType": "APARTMENTS",
-      "qualityScore": 9,
-      "firstSeen": "2026-10-23T21:44:16.974Z",
-      "lastSeen": "2026-10-23T21:44:16.974Z",
-      "isNew": true
+      "lastSeen": "2026-10-23T22:02:43.896Z",
+      "isNew": false
     },
     {
       "id": "rent-lc6081301",
@@ -2871,11 +1505,12 @@
       "lat": 33.038843,
       "lng": -117.25975,
       "photos": [
-        "https://i.rent.com/t_3x2_fixed_webp_lg/cc82f20734ce7fce6709e420f6678d2f",
+        "https://i.rent.com/t_3x2_fixed_webp_lg/9b2d7a5582c910bcd2645074d1000a9b",
         "https://i.rent.com/t_3x2_fixed_webp_lg/2a3ccb1e7090b04d4d59ae3d8ca06087",
         "https://i.rent.com/t_3x2_fixed_webp_lg/71de6219d161320e4573e405b5c47858",
         "https://i.rent.com/t_3x2_fixed_webp_lg/8d26246da3804eaa22ddd8713b04e4dd",
         "https://i.rent.com/t_3x2_fixed_webp_lg/07ef8d486a89bb4731deed6b686ff4e7",
+        "https://i.rent.com/t_3x2_fixed_webp_lg/cc82f20734ce7fce6709e420f6678d2f",
         "https://i.rent.com/t_3x2_fixed_webp_lg/d0714a6619cf46d066784e6a3fedfee3",
         "https://i.rent.com/t_3x2_fixed_webp_lg/23cb123e8f238309ba9be6cf311f1967",
         "https://i.rent.com/t_3x2_fixed_webp_lg/c76f2f4d907ef409aa0d8a4e250077a9",
@@ -2883,7 +1518,6 @@
         "https://i.rent.com/t_3x2_fixed_webp_lg/32898c86169835dae11d6a1fb121cac7",
         "https://i.rent.com/t_3x2_fixed_webp_lg/089995c773b45472ca8dee82888e495d",
         "https://i.rent.com/t_3x2_fixed_webp_lg/cb4eeb196d650a626163fcc49f8e1d7b",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/9b2d7a5582c910bcd2645074d1000a9b",
         "https://i.rent.com/t_3x2_fixed_webp_lg/e19a813162197de3a8086fec1f5ca0e0",
         "https://i.rent.com/t_3x2_fixed_webp_lg/df46120a3c56d548141bebaa5a82f6ce",
         "https://i.rent.com/t_3x2_fixed_webp_lg/96139d988451845b1ad0d385b2a89183",
@@ -2892,6 +1526,30 @@
         "https://i.rent.com/t_3x2_fixed_webp_lg/26609425238018dbe8a4f3c93863da80"
       ],
       "floorPlans": [
+        {
+          "beds": 0,
+          "baths": 1,
+          "minPrice": 1799,
+          "maxPrice": 1949,
+          "minSqft": 256,
+          "maxSqft": 400
+        },
+        {
+          "beds": 0,
+          "baths": 1,
+          "minPrice": 1799,
+          "maxPrice": 1799,
+          "minSqft": 256,
+          "maxSqft": 256
+        },
+        {
+          "beds": 1,
+          "baths": 1,
+          "minPrice": 2145,
+          "maxPrice": 2145,
+          "minSqft": 480,
+          "maxSqft": 480
+        },
         {
           "beds": 0,
           "baths": 1,
@@ -2946,8 +1604,8 @@
       "propertyType": "APARTMENTS",
       "qualityScore": 10,
       "firstSeen": "2026-10-23T21:44:16.974Z",
-      "lastSeen": "2026-10-23T21:44:16.974Z",
-      "isNew": true
+      "lastSeen": "2026-10-23T22:02:43.896Z",
+      "isNew": false
     },
     {
       "id": "rent-lc6602174",
@@ -2960,7 +1618,7 @@
       "lat": 33.037787,
       "lng": -117.25962,
       "photos": [
-        "https://i.rent.com/t_3x2_fixed_webp_lg/5b0c81ab1685c9d0fa4e350e0d8ae2d5",
+        "https://i.rent.com/t_3x2_fixed_webp_lg/50693d97394c387e50a4e5ad5aa1cd60",
         "https://i.rent.com/t_3x2_fixed_webp_lg/ab3fbdf374377f4cd736737b6987f176",
         "https://i.rent.com/t_3x2_fixed_webp_lg/962120bf3b7e7d25bf7344e91732b385",
         "https://i.rent.com/t_3x2_fixed_webp_lg/83b44b25f8f4fdac907f22b30d2b047f",
@@ -2972,7 +1630,6 @@
         "https://i.rent.com/t_3x2_fixed_webp_lg/b854304770efa8b62e8269820e452d06",
         "https://i.rent.com/t_3x2_fixed_webp_lg/c042705f6e53d78ea797d8c28312da4c",
         "https://i.rent.com/t_3x2_fixed_webp_lg/33a24b48b2dc20c766b1b71585b2df14",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/50693d97394c387e50a4e5ad5aa1cd60",
         "https://i.rent.com/t_3x2_fixed_webp_lg/ec6e309871c72f51e53a5486bc44d729",
         "https://i.rent.com/t_3x2_fixed_webp_lg/41a09ee67cbaa87596d7941bb3538d32",
         "https://i.rent.com/t_3x2_fixed_webp_lg/e0b1b0e11d9b9c967a3b3030d025bc8d",
@@ -2980,6 +1637,7 @@
         "https://i.rent.com/t_3x2_fixed_webp_lg/25ed77933b5826771ba72c438c8f3759",
         "https://i.rent.com/t_3x2_fixed_webp_lg/8be6828b49f991032e85eac9be8c8fdd",
         "https://i.rent.com/t_3x2_fixed_webp_lg/19efd2e7edb1eee78dd330cba258801d",
+        "https://i.rent.com/t_3x2_fixed_webp_lg/5b0c81ab1685c9d0fa4e350e0d8ae2d5",
         "https://i.rent.com/t_3x2_fixed_webp_lg/e9f13403f298590574d1d4613f191fa2",
         "https://i.rent.com/t_3x2_fixed_webp_lg/e27dcef77cf2adb9f166ec1489237b60",
         "https://i.rent.com/t_3x2_fixed_webp_lg/162450f118afa957f26b37abbe2c01ab",
@@ -2993,25 +1651,37 @@
           "beds": 0,
           "baths": 1,
           "minPrice": 1845,
-          "maxPrice": 1995,
-          "minSqft": 0,
-          "maxSqft": 0
+          "maxPrice": 1995
         },
         {
           "beds": 1,
           "baths": 1,
           "minPrice": 2195,
-          "maxPrice": 2295,
-          "minSqft": 0,
-          "maxSqft": 0
+          "maxPrice": 2295
         },
         {
           "beds": 0,
           "baths": 1,
           "minPrice": 1845,
-          "maxPrice": 1845,
-          "minSqft": 0,
-          "maxSqft": 0
+          "maxPrice": 1845
+        },
+        {
+          "beds": 0,
+          "baths": 1,
+          "minPrice": 1845,
+          "maxPrice": 1995
+        },
+        {
+          "beds": 1,
+          "baths": 1,
+          "minPrice": 2195,
+          "maxPrice": 2295
+        },
+        {
+          "beds": 0,
+          "baths": 1,
+          "minPrice": 1845,
+          "maxPrice": 1845
         }
       ],
       "minPrice": 1845,
@@ -3020,8 +1690,6 @@
       "bedsMax": 1,
       "bathsMin": 1,
       "bathsMax": 1,
-      "sqftMin": 0,
-      "sqftMax": 0,
       "amenities": [
         "Pet Friendly",
         "Air Conditioning",
@@ -3043,7 +1711,94 @@
       "propertyType": "APARTMENTS",
       "qualityScore": 10,
       "firstSeen": "2026-10-23T21:44:16.974Z",
-      "lastSeen": "2026-10-23T21:44:16.974Z",
+      "lastSeen": "2026-10-23T22:02:43.896Z",
+      "isNew": false
+    },
+    {
+      "id": "rent-lc5900991",
+      "name": "Bella Del Mar Apartments",
+      "areaId": "del-mar",
+      "areaName": "Del Mar",
+      "address": "14031 Mango Dr",
+      "city": "Del Mar",
+      "zip": "92014",
+      "lat": 32.952403,
+      "lng": -117.24599,
+      "photos": [
+        "https://i.rent.com/t_3x2_fixed_webp_lg/c2b6c98fde3a401d65624009aae67114",
+        "https://i.rent.com/t_3x2_fixed_webp_lg/aeb673b2afa560cbb0bee0512c0cc125",
+        "https://i.rent.com/t_3x2_fixed_webp_lg/44ce5df22c63459584df94d8807ee725",
+        "https://i.rent.com/t_3x2_fixed_webp_lg/fd5d6b4313f0b92b9c02735362fb27ee",
+        "https://i.rent.com/t_3x2_fixed_webp_lg/b963a76b9e030856d4036709fc96b263",
+        "https://i.rent.com/t_3x2_fixed_webp_lg/59a3e7388f7e776b9f8930c0651784c6",
+        "https://i.rent.com/t_3x2_fixed_webp_lg/2507bbaf09e0f19828d5e66a34f8cb61",
+        "https://i.rent.com/t_3x2_fixed_webp_lg/851a8fc971edf37115396a7b88c31ab9",
+        "https://i.rent.com/t_3x2_fixed_webp_lg/5e8f4456c6350df8fc49d4e2b67a32dd",
+        "https://i.rent.com/t_3x2_fixed_webp_lg/f65a1fa14dbd8ee41384b74825f796f8",
+        "https://i.rent.com/t_3x2_fixed_webp_lg/62f4a78233c9e1e290cdb336989df625",
+        "https://i.rent.com/t_3x2_fixed_webp_lg/cb392ef35f7dd22afb6085d41246c1f8",
+        "https://i.rent.com/t_3x2_fixed_webp_lg/e9136acb39af23dc00e530cfafccf87c",
+        "https://i.rent.com/t_3x2_fixed_webp_lg/bcbc8159241ae0c1db8ce3794873a329",
+        "https://i.rent.com/t_3x2_fixed_webp_lg/486bc7676590ae0650418fe45811206c",
+        "https://i.rent.com/t_3x2_fixed_webp_lg/09cd3812c642a3b0052c390a54a4fa7c",
+        "https://i.rent.com/t_3x2_fixed_webp_lg/536da9edee30a09f1fe14185171506d4",
+        "https://i.rent.com/t_3x2_fixed_webp_lg/8f69e8d327fa7ffc487f35c0e4aacd72",
+        "https://i.rent.com/t_3x2_fixed_webp_lg/8b07d088b7cb2276bc986c5146e56d0b",
+        "https://i.rent.com/t_3x2_fixed_webp_lg/9a642a1a02af072bf5b9c58da0ab651d",
+        "https://i.rent.com/t_3x2_fixed_webp_lg/c4b65cb641ccde395c47f521399e35cd",
+        "https://i.rent.com/t_3x2_fixed_webp_lg/3169d36624fbae5a44cc4fa371f1ada3",
+        "https://i.rent.com/t_3x2_fixed_webp_lg/3ace695b4251cb4ac9e1bbeb5ea182a6",
+        "https://i.rent.com/t_3x2_fixed_webp_lg/2e5dd72a9ae7633bd73ea361639520f1",
+        "https://i.rent.com/t_3x2_fixed_webp_lg/ac6e59ce20c60a964554dcd7de87a671"
+      ],
+      "floorPlans": [
+        {
+          "beds": 1,
+          "baths": 1,
+          "minPrice": 3215,
+          "maxPrice": 3215,
+          "minSqft": 765,
+          "maxSqft": 765
+        },
+        {
+          "beds": 1,
+          "baths": 1,
+          "minPrice": 3215,
+          "maxPrice": 3215,
+          "minSqft": 765,
+          "maxSqft": 765
+        }
+      ],
+      "minPrice": 3215,
+      "maxPrice": 3215,
+      "bedsMin": 1,
+      "bedsMax": 1,
+      "bathsMin": 1,
+      "bathsMax": 1,
+      "sqftMin": 765,
+      "sqftMax": 765,
+      "amenities": [
+        "Pet Friendly",
+        "Air Conditioning",
+        "Patio",
+        "Dishwasher",
+        "Fitness Center",
+        "Hardwood Flooring"
+      ],
+      "description": "",
+      "sources": [
+        {
+          "name": "Rent.com",
+          "feed": "ZILLOW",
+          "url": "https://www.rent.com/apartment/bella-del-mar-apartments-del-mar-ca-lc5900991"
+        }
+      ],
+      "verified": true,
+      "priceDrop": false,
+      "propertyType": "APARTMENTS",
+      "qualityScore": 12,
+      "firstSeen": "2026-10-23T22:02:43.896Z",
+      "lastSeen": "2026-10-23T22:02:43.896Z",
       "isNew": true
     },
     {
@@ -3057,7 +1812,7 @@
       "lat": 33.195636,
       "lng": -117.37846,
       "photos": [
-        "https://i.rent.com/t_3x2_fixed_webp_lg/c1a2e99ef5eae8bc1043c42544e26739",
+        "https://i.rent.com/t_3x2_fixed_webp_lg/6367d1a0e391fb11ebf03bed89497925",
         "https://i.rent.com/t_3x2_fixed_webp_lg/7c7b77f79e5eda372081d1826d2228ff",
         "https://i.rent.com/t_3x2_fixed_webp_lg/4145d628d64471953eea6780abb4f1f9",
         "https://i.rent.com/t_3x2_fixed_webp_lg/f9d570f08a252fa2b203dd6bbfe6702d",
@@ -3083,7 +1838,6 @@
         "https://i.rent.com/t_3x2_fixed_webp_lg/54c090cbc4d51c721673165d4348ff72",
         "https://i.rent.com/t_3x2_fixed_webp_lg/94646e3536db74304f98d43ee73d4306",
         "https://i.rent.com/t_3x2_fixed_webp_lg/2d3a1099009caa7fcd93e54048c482ab",
-        "https://i.rent.com/t_3x2_fixed_webp_lg/6367d1a0e391fb11ebf03bed89497925",
         "https://i.rent.com/t_3x2_fixed_webp_lg/830fbf239672c6b35ade1ad8643c399b",
         "https://i.rent.com/t_3x2_fixed_webp_lg/1920a61acfc732adaa9aba704f467787",
         "https://i.rent.com/t_3x2_fixed_webp_lg/205ba790119ade062483a34e2d5e15b9",
@@ -3106,6 +1860,7 @@
         "https://i.rent.com/t_3x2_fixed_webp_lg/7f101c4980ec6ddefcb1aad119b4a194",
         "https://i.rent.com/t_3x2_fixed_webp_lg/876a443b5cfa2abec8a43609e8be7b7b",
         "https://i.rent.com/t_3x2_fixed_webp_lg/7e27f7931d4884ed0a0ca2652f670fd7",
+        "https://i.rent.com/t_3x2_fixed_webp_lg/c1a2e99ef5eae8bc1043c42544e26739",
         "https://i.rent.com/t_3x2_fixed_webp_lg/5636bef70ce7baacb0141aee51ee66f6",
         "https://i.rent.com/t_3x2_fixed_webp_lg/75242d402eac609fb60934334d81e176"
       ],
@@ -3150,54 +1905,264 @@
       "propertyType": "APARTMENTS",
       "qualityScore": 13,
       "firstSeen": "2026-10-23T21:44:16.974Z",
-      "lastSeen": "2026-10-23T21:44:16.974Z",
-      "isNew": true
+      "lastSeen": "2026-10-23T22:02:43.896Z",
+      "isNew": false
     }
   ],
   "run": {
-    "runAt": "2026-10-23T21:44:16.974Z",
+    "runAt": "2026-10-23T22:02:43.896Z",
     "sourceCounts": {
-      "Rent.com": 218
+      "Rent.com": 209
     },
     "areaCounts": {
       "little-italy": {
+        "status": "ok",
+        "rawCount": 172,
+        "pages": 6,
+        "retries": 0,
+        "paths": [
+          {
+            "path": "/california/san-diego-apartments/little-italy-neighborhood",
+            "status": "ok",
+            "pages": 5,
+            "listings": 143
+          },
+          {
+            "path": "/california/san-diego-condos/little-italy-neighborhood",
+            "status": "ok",
+            "pages": 1,
+            "listings": 30
+          }
+        ],
+        "dropReasons": {
+          "outsideCoastalBox": 13,
+          "overBudget": 19,
+          "wrongType": 35,
+          "fewerThanSixPhotos": 4,
+          "missingDescription": 88,
+          "belowScore": 0
+        },
         "beforeQuality": 105,
-        "afterQuality": 26
+        "afterQuality": 13
       },
       "carlsbad-village": {
-        "beforeQuality": 27,
+        "status": "ok",
+        "rawCount": 80,
+        "pages": 4,
+        "retries": 0,
+        "paths": [
+          {
+            "path": "/california/carlsbad-apartments/carlsbad-village-neighborhood",
+            "status": "ok",
+            "pages": 2,
+            "listings": 31
+          },
+          {
+            "path": "/california/carlsbad-condos",
+            "status": "ok",
+            "pages": 2,
+            "listings": 49
+          }
+        ],
+        "dropReasons": {
+          "outsideCoastalBox": 49,
+          "overBudget": 11,
+          "wrongType": 2,
+          "fewerThanSixPhotos": 2,
+          "missingDescription": 16,
+          "belowScore": 0
+        },
+        "beforeQuality": 22,
         "afterQuality": 0
       },
       "encinitas": {
-        "beforeQuality": 11,
+        "status": "ok",
+        "rawCount": 78,
+        "pages": 3,
+        "retries": 0,
+        "paths": [
+          {
+            "path": "/california/encinitas-apartments",
+            "status": "ok",
+            "pages": 2,
+            "listings": 48
+          },
+          {
+            "path": "/california/encinitas-condos",
+            "status": "ok",
+            "pages": 1,
+            "listings": 31
+          }
+        ],
+        "dropReasons": {
+          "outsideCoastalBox": 40,
+          "overBudget": 20,
+          "wrongType": 5,
+          "fewerThanSixPhotos": 0,
+          "missingDescription": 10,
+          "belowScore": 1
+        },
+        "beforeQuality": 10,
         "afterQuality": 2
       },
       "leucadia": {
-        "beforeQuality": 4,
+        "status": "ok",
+        "rawCount": 51,
+        "pages": 2,
+        "retries": 0,
+        "paths": [
+          {
+            "path": "/california/encinitas-apartments/leucadia-neighborhood",
+            "status": "ok",
+            "pages": 1,
+            "listings": 20
+          },
+          {
+            "path": "/california/encinitas-condos",
+            "status": "ok",
+            "pages": 1,
+            "listings": 31
+          }
+        ],
+        "dropReasons": {
+          "outsideCoastalBox": 41,
+          "overBudget": 7,
+          "wrongType": 2,
+          "fewerThanSixPhotos": 0,
+          "missingDescription": 1,
+          "belowScore": 0
+        },
+        "beforeQuality": 2,
         "afterQuality": 0
       },
       "cardiff": {
+        "status": "ok",
+        "rawCount": 215,
+        "pages": 8,
+        "retries": 0,
+        "paths": [
+          {
+            "path": "/california/cardiff-by-the-sea-apartments",
+            "status": "ok",
+            "pages": 5,
+            "listings": 139
+          },
+          {
+            "path": "/california/cardiff-by-the-sea-condos",
+            "status": "ok",
+            "pages": 3,
+            "listings": 78
+          }
+        ],
+        "dropReasons": {
+          "outsideCoastalBox": 208,
+          "overBudget": 5,
+          "wrongType": 0,
+          "fewerThanSixPhotos": 0,
+          "missingDescription": 2,
+          "belowScore": 0
+        },
         "beforeQuality": 2,
-        "afterQuality": 1
+        "afterQuality": 0
       },
       "solana-beach": {
+        "status": "ok",
+        "rawCount": 60,
+        "pages": 2,
+        "retries": 0,
+        "paths": [
+          {
+            "path": "/california/solana-beach-apartments",
+            "status": "ok",
+            "pages": 1,
+            "listings": 30
+          },
+          {
+            "path": "/california/solana-beach-condos",
+            "status": "ok",
+            "pages": 1,
+            "listings": 31
+          }
+        ],
+        "dropReasons": {
+          "outsideCoastalBox": 45,
+          "overBudget": 9,
+          "wrongType": 4,
+          "fewerThanSixPhotos": 0,
+          "missingDescription": 2,
+          "belowScore": 0
+        },
         "beforeQuality": 2,
         "afterQuality": 0
       },
       "del-mar": {
+        "status": "ok",
+        "rawCount": 60,
+        "pages": 2,
+        "retries": 0,
+        "paths": [
+          {
+            "path": "/california/del-mar-apartments",
+            "status": "ok",
+            "pages": 1,
+            "listings": 30
+          },
+          {
+            "path": "/california/del-mar-condos",
+            "status": "ok",
+            "pages": 1,
+            "listings": 31
+          }
+        ],
+        "dropReasons": {
+          "outsideCoastalBox": 28,
+          "overBudget": 25,
+          "wrongType": 1,
+          "fewerThanSixPhotos": 2,
+          "missingDescription": 3,
+          "belowScore": 0
+        },
         "beforeQuality": 9,
-        "afterQuality": 0
+        "afterQuality": 1
       },
       "oceanside": {
-        "beforeQuality": 58,
+        "status": "partial",
+        "rawCount": 150,
+        "pages": 5,
+        "retries": 3,
+        "paths": [
+          {
+            "path": "/california/oceanside-apartments",
+            "status": "partial",
+            "pages": 5,
+            "listings": 150,
+            "error": "Rent.com returned 202 for https://www.rent.com/california/oceanside-apartments?page=6"
+          },
+          {
+            "path": "/california/oceanside-condos",
+            "status": "skipped",
+            "pages": 0,
+            "listings": 0,
+            "error": "Rent.com request circuit is open: Rent.com returned 202 for https://www.rent.com/california/oceanside-apartments?page=6"
+          }
+        ],
+        "dropReasons": {
+          "outsideCoastalBox": 79,
+          "overBudget": 11,
+          "wrongType": 3,
+          "fewerThanSixPhotos": 5,
+          "missingDescription": 51,
+          "belowScore": 0
+        },
+        "beforeQuality": 57,
         "afterQuality": 1
       }
     },
     "qualityCounts": {
-      "before": 218,
-      "after": 30
+      "before": 209,
+      "after": 17
     },
-    "dedupeMerges": 67,
+    "dedupeMerges": 46,
     "errors": []
   }
 }
